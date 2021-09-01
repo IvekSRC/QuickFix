@@ -1,0 +1,235 @@
+@page
+@model MajstorInterfejsModel
+@{
+    ViewData["Title"] = "Majstor Interfejs";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="~/css/stil.css" />  
+    </head>
+    <div class="majstorDivv">
+        <form method="POST">
+            <div class="osnovneInfOMajstoru">
+                <div class="levoIdem">
+                    <div class="osnovniPodaciOMaj">
+                        <div class="saciri">
+                            <h3>Vasi podaci</h3>
+                        </div>
+                        <div class="dzaka">
+                            <p><span class="labelaInf">Ime i prezime - </span>@Model.prijavljeniMajstor.MajstorIme @Model.prijavljeniMajstor.MajstorPrezime</p>
+                        </div>
+                        <div class="dzaka">
+                            <p><span class="labelaInf">Email - </span>@Model.prijavljeniMajstor.MajstorEmail</p>
+                        </div>
+                        <div class="dzaka">
+                            <p>
+                                <span class="labelaInf">Ocena (Broj ocena) - </span>@Model.prijavljeniMajstor.MajstorOcena (@Model.prijavljeniMajstor.BrojOcena)
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="desnoIdem">
+                    <div class="majstorSlicica">
+                        <div>
+                            <img src="~/Slike/majstor.png" alt="Majstor" class="majstorPhoto">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tabelaInfMajj">
+                <div class="uslugaDivLab">
+                    <h2>Usluge majstora</h2>
+                </div>
+                <table class="table tablicaCokolade">
+                    <thead>
+                        <tr>
+                            <th>Usluga</th>
+                            <th>Cena</th> 
+                            <th>Brisanje usluge</th>                               
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var usluga in Model.listaUsluga)
+                        {
+                            <tr>
+                                <th>@usluga.NazivUsluge</th>
+                                <th>@usluga.CenaUsluge</th>
+                                <th><button type="submit" class="obrisiDugme" asp-route-id="@usluga.UslugaId" asp-page-handler="Obrisi">Obrisi</button></th>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+
+                <div class="zaUslugu">
+                    <div class="ovoJeLevo">
+                        <div class="zaUsluguLabela">
+                            <h4>Unesi uslugu</h4>
+                            <div class="divUnosa">
+                                <div class="divLabele">
+                                    Naziv usluge
+                                </div>
+                                <div class="divInputa">
+                                    <input type="text" id="naziv" asp-for="novaUsluga.NazivUsluge">
+                                </div>
+                            </div>   
+                            <div class="divUnosa">
+                                <div class="divLabele">
+                                    Cena usluge
+                                </div>
+                                <div class="divInputa">
+                                    <input type="number" id="cena" asp-for="novaUsluga.CenaUsluge">
+                                </div>
+                            </div> 
+                        </div>
+                        <button type="submit" onclick="dodaj()" class="zakaziDugme ddd" asp-page-handler="Dodaj">Dodaj</button> 
+                    </div>
+                    <div class="ovoJeDesno">
+                        <div class="trgovinaDiv">
+                            <div>
+                                <img src="~/Slike/trgovina.jpg" alt="Usluga" class="trgovinaSlika">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tabelaInfMajjj">
+                <div class="uslugaDivLab">
+                    <h2>Zahtevi za posao</h2>
+                </div>
+                <div>
+                    <table class="table taki">
+                        <thead>
+                            <tr>
+                                <th>Korisnik</th>
+                                <th>Email</th>
+                                <th>Stanje</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var korisnik in Model.listaZahteva)
+                            {
+                                @if(korisnik.StanjeZahteva != "Uklonjen")
+                                {
+                                    @if(korisnik.StanjeZahteva != "Popravljeno")
+                                    {
+                                        <tr>
+                                            <td>@korisnik.ImeKorisnika @korisnik.PrezimeKorisnika</td>
+                                            <td>@korisnik.EmailKorisnika</td>
+                                            <td>@korisnik.StanjeZahteva</td>
+                                            <td><button class="odobriDugme" type="submit" asp-route-id="@korisnik.ZahtevId" asp-page-handler="OdobriZahtev">Odobri zahtev</button></td>
+                                            <td><button class="odbiDugme" type="submit" asp-route-id="@korisnik.ZahtevId" asp-page-handler="OdbijZahtev">Odbij zahtev</button></td>
+                                            <td><button class="popravljenoDugme" type="submit" asp-route-id="@korisnik.ZahtevId" asp-page-handler="Popravljeno">Popravljeno</button></td>
+                                            <td><button class="ukloniDugme" type="submit" asp-route-id="@korisnik.ZahtevId" asp-page-handler="Ukloni">Ukloni</button></td>
+                                        </tr>
+                                    }
+                                }
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            @if(Model.prijavljeniMajstor.Servis == null)
+            {
+                <div class="tabelaInfMajje">
+                    <div class="baki">
+                        <div class="uslugaDivLabb">
+                            <h2>Vasi zahtevi za rad u servisu</h2>
+                        </div>
+                        <div class="taki">
+                            <table class="table">
+                                <thead>
+                                    <tr>
+                                        <th>Ime servisa</th>
+                                        <th>Lokacija servisa</th>
+                                        <th>Stanje zahteva</th>
+                                        <th></th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    @foreach (var zahtev in Model.listaZahtevaZaServis)
+                                    {
+                                        <tr>
+                                            <td>@zahtev.ImeServisa</td>
+                                            <td>@zahtev.LokacijaServisa</td>
+                                            <td>@zahtev.StanjeZahteva</td>
+                                            <td><button type="submit" class="ukloniDugme" asp-page-handler="PovuciZahtev" asp-route-id="@zahtev.ZahtevServisId">Ukloni zahtev</button></td>
+                                        </tr>    
+                                    }
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+
+                    <div class="haki">
+                        <div class="uslugaDivLabb">
+                            <h2>Podnosenje zahteva za rad u servisu</h2>
+                        </div>
+                        <table class="table taki">
+                            <thead>
+                                <tr>
+                                    <th>Ime</th>
+                                    <th>Lokacija</th>
+                                    <th></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach (var servis in Model.listaServisa)
+                                {
+                                    <tr>
+                                        <td>@servis.ServisIme</td>
+                                        <td>@servis.ServisLokacija</td>
+                                        <td><button class="podnesiDugme" type="submit" asp-page-handler="PodnesiZahtev" asp-route-id="@servis.ServisId">Podnesi zahtev</button></td>
+                                    </tr>
+                                }
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            }
+
+            <div class="komentarskiDiv">
+                <div class="divZaKomentare">
+                    <h2>Komentari</h2>
+                    @foreach (var komentar in Model.listaKomentara)
+                    {
+                        <div class="divKomentara">
+                            <div class="podnosiocKomentara">
+                                <p><span class="labelaInf">Komentarisao - </span>@komentar.NazivKorisnika (@komentar.MejlKorisnika)</p>
+                            </div>
+                            <div class="sadrzajKomentara">
+                                <div class="komentarSadrzaj">
+                                    <p><span class="spancina">Sadrzaj komentara - </span>@komentar.SadrzajKomentara</p>
+                                </div>
+                            </div>
+                        </div>
+                    }
+                </div>
+            </div>
+
+            <button class="odjavaDugme asd" type="submit" asp-page-handler="LogOut">Log out</button>
+
+        </form>
+    </div>
+</html>
+
+<script>
+    function dodaj() {
+        let pom1 = document.getElementById('naziv').value;
+        let pom2 = document.getElementById('cena').value;
+
+        if(pom1.length == 0) 
+        {
+            alert("Morate uneti naziv usluge.");
+        }
+
+        if(pom2 < 0)
+        {
+            alert("Cena mora biti pozitivna.");
+        }
+    }
+</script>

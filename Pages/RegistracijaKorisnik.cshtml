@@ -1,0 +1,98 @@
+@page
+@model RegistracijaKorisnikModel
+@{
+    ViewData["Title"] = "Registracija Korisnik";
+}
+
+<form method="POST">
+    <div class="element">
+        <div class="labelaRegistracije">
+            <h1>Registracija Korisnika</h1>
+        </div>
+        <div class="majstorSlicica">
+            <div>
+                <img src="~/Slike/korisnik.png" alt="Korisnik" class="majstorPhoto">
+            </div>
+        </div>
+        <div class="unosOsnovnihPod">
+            <div class="leftDiv">
+                <div class="labelaOsnovnogUnosa">
+                    <h4>Unos osnovnih podataka</h4>
+                </div>
+                <div class="divUnosa prviDiv">
+                    <div class="drugiDiv">
+                        Ime
+                    </div>
+                    <div class="treciDiv">
+                        <input type="text" asp-for="noviKorisnik.KorisnikIme">
+                    </div>
+                    <div>
+                        <span asp-validation-for="noviKorisnik.KorisnikIme" class="text-danger validacija2"></span>
+                    </div>
+                </div>
+                <div class="divUnosa prviDiv">
+                    <div class="drugiDiv">
+                        Prezime
+                    </div>
+                    <div class="treciDiv">
+                        <input type="text" asp-for="noviKorisnik.KorisnikPrezime">
+                    </div>
+                    <div>
+                        <span asp-validation-for="noviKorisnik.KorisnikPrezime" class="text-danger validacija2"></span>
+                    </div>
+                </div>
+                <div class="divUnosa prviDiv">
+                    <div class="drugiDiv">
+                        Email
+                    </div>
+                    <div class="treciDiv">
+                        <input type="text" asp-for="noviKorisnik.KorisnikEmail">
+                    </div>
+                    <div>
+                        <span asp-validation-for="noviKorisnik.KorisnikEmail" class="text-danger validacija2"></span>
+                    </div>
+                </div>
+                <div class="divUnosa prviDiv">
+                    <div class="drugiDiv">
+                        Lozinka
+                    </div>
+                    <div class="treciDiv">
+                        <input type="text" type="password" id="myInput" asp-for="noviKorisnik.KorisnikLozinka">
+                        <input type="checkbox" onclick="prikazSifre()">Prikazi sifru
+                    </div>
+                    <div>
+                        <span asp-validation-for="noviKorisnik.KorisnikLozinka" class="text-danger validacija2"></span>
+                    </div>
+                </div>
+                <div class="divUnosa prviDiv">
+                    <div class="drugiDiv">
+                        Lokacija
+                    </div>
+                    <div class="treciDiv">
+                        <input type="text" asp-for="noviKorisnik.KorisnikLokacija">
+                    </div>
+                    <div>
+                        <span asp-validation-for="noviKorisnik.KorisnikLokacija" class="text-danger validacija2"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="rightDiv">
+                
+            </div>
+        </div>
+        <div class="divZaDugme">
+            <button class="registrujSeDugme regDugmence" type="submit">Registruj se</button>
+        </div>
+    </div>
+</form>
+
+<script>
+    function prikazSifre() {
+        var x = document.getElementById("myInput");
+        if (x.type === "password") {
+            x.type = "text";
+        } else {
+            x.type = "password";
+        }
+    }
+</script>

@@ -1,0 +1,168 @@
+@page
+@model RegistracijaMajstorModel
+@{
+    ViewData["Title"] = "Registracija Majstor";
+}
+
+<form method="POST">
+    <div class="element">
+        <div class="labelaRegistracije">
+            <h1>Registracija Majstora</h1>
+        </div>
+        <div class="majstorSlicica">
+            <div>
+                <img src="~/Slike/majstor.png" alt="Majstor" class="majstorPhoto">
+            </div>
+        </div>
+        <div class="unosOsnovnihPod">
+            <div class="leftDiv">
+                <div class="labelaOsnovnogUnosa">
+                    <h4>Unos osnovnih podataka</h4>
+                </div>
+                <div class="divUnosa prviDiv">
+                    <div class="drugiDiv">
+                        Ime
+                    </div>
+                    <div class="treciDiv">
+                        <input type="text" asp-for="noviMajstor.MajstorIme">
+                    </div>
+                    <div>
+                        <span asp-validation-for="noviMajstor.MajstorIme" class="text-danger validacija1"></span>
+                    </div>
+                </div>
+                <div class="divUnosa prviDiv">
+                    <div class="drugiDiv">
+                        Prezime
+                    </div>
+                    <div class="treciDiv">
+                        <input type="text" asp-for="noviMajstor.MajstorPrezime">
+                    </div>
+                    <div>
+                        <span asp-validation-for="noviMajstor.MajstorPrezime" class="text-danger validacija2"></span>
+                    </div>
+                </div>
+                <div class="divUnosa prviDiv">
+                    <div class="drugiDiv">
+                        Email
+                    </div>
+                    <div class="treciDiv">
+                        <input type="text" asp-for="noviMajstor.MajstorEmail">
+                    </div>
+                    <div>
+                        <span asp-validation-for="noviMajstor.MajstorEmail" class="text-danger validacija2"></span>
+                    </div>
+                </div>
+                <div class="divUnosa prviDiv">
+                    <div class="drugiDiv">
+                        Lozinka
+                    </div>
+                    <div class="treciDiv">
+                        <input type="text" type="password" id="myInput" asp-for="noviMajstor.MajstorLozinka">
+                        <input type="checkbox" onclick="prikazPasvorda()">Prikazi sifru
+                    </div>
+                    <div>
+                        <span asp-validation-for="noviMajstor.MajstorLozinka" class="text-danger validacija2"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="rightDiv">
+                
+            </div>
+        </div>
+        <div class="divZaUnosUsluga">
+            <div class="labelaOsnovnogUnosa">
+                <h4>Unos usluga Majstora</h4>
+            </div>
+            <div class="divUsluge">
+                <div class="uslugaLabelaDiv">
+                    <h5>Usluga 1</h5>
+                </div>
+                <div>
+                    <input id="usluga1" type="text" asp-for="UslugaJedan">
+                </div>
+                <div class="uslugaCenaDiv">
+                    <h5>Cena</h5>
+                </div>
+                <div>
+                    <input id="cena1" type="number" asp-for="UslugaJedanCena">
+                </div>
+            </div>
+            <div class="divUsluge">
+                <div class="uslugaLabelaDiv">
+                    <h5>Usluga 2</h5>
+                </div>
+                <div>
+                    <input id="usluga2" type="text" asp-for="UslugaDva">
+                </div>
+                <div class="uslugaCenaDiv">
+                    <h5>Cena</h5>
+                </div>
+                <div>
+                    <input id="cena2" type="number" asp-for="UslugaDvaCena">
+                </div>
+            </div>
+            <div class="divUsluge">
+                <div class="uslugaLabelaDiv">
+                    <h5>Usluga 3</h5>
+                </div>
+                <div>
+                    <input id="usluga3" type="text" asp-for="UslugaTri">
+                </div>
+                <div class="uslugaCenaDiv">
+                    <h5>Cena</h5>
+                </div>
+                <div>
+                    <input id="cena3" type="number" asp-for="UslugaTriCena">
+                </div>
+            </div>
+        </div>
+        <div class="divZaDugme">
+            <button class="registrujSeDugme regDugmence" onclick="registracija()" type="submit">Registruj se</button>
+        </div>
+    </div>
+</form>
+
+<script>
+    function prikazPasvorda() {
+        var x = document.getElementById("myInput");
+        if (x.type === "password") {
+            x.type = "text";
+        } else {
+            x.type = "password";
+        }
+    }
+
+    function registracija() {
+        var pom1 = document.getElementById("usluga1").value;
+        var pom2 = document.getElementById("usluga2").value;
+        var pom3 = document.getElementById("usluga3").value;
+
+        var tmp1 = document.getElementById("cena1").value;
+        var tmp2 = document.getElementById("cena2").value;
+        var tmp3 = document.getElementById("cena3").value;
+
+        if(pom1.length != 0)
+        {
+            if(pom1.length < 2)
+                alert("Usluga mora da ima bar 2 karaktera");
+            if(tmp1 < 0)
+                alert("Cena ne moze da bude negativna");
+        }
+
+        if(pom2.length != 0)
+        {
+            if(pom2.length < 2)
+                alert("Usluga mora da ima bar 2 karaktera");
+            if(tmp2 < 0)
+                alert("Cena ne moze da bude negativna");
+        }
+
+        if(pom3.length != 0)
+        {
+            if(pom3.length < 2)
+                alert("Usluga mora da ima bar 2 karaktera");
+            if(tmp3 < 0)
+                alert("Cena ne moze da bude negativna");
+        }
+    }
+</script>

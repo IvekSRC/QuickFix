@@ -1,0 +1,69 @@
+@page
+@model MajstorInformacijeModel
+@{
+    ViewData["Title"] = "Informacije Majstora";
+}
+
+<div class="majstorDiv">
+    <form method="GET">
+        <div class="majstorSlicica">
+            <div>
+                <img src="~/Slike/majstor.png" alt="Majstor" class="majstorPhoto">
+            </div>
+        </div>
+
+        <div class="osnovneInfOMajstoru">
+            <div class="osnovniPodaciOMaj">
+                <h3>Osnovni podaci Majstora</h3>
+                <p><span class="labelaInf">Ime i prezime - </span>@Model.odabraniMajstor.MajstorIme @Model.odabraniMajstor.MajstorPrezime</p>
+                <p><span class="labelaInf">Email - </span>@Model.odabraniMajstor.MajstorEmail</p>
+                <p>
+                    <span class="labelaInf">Ocena (Broj ocena) - </span>@Model.odabraniMajstor.MajstorOcena (@Model.odabraniMajstor.BrojOcena)
+                </p>
+            </div>
+        </div>
+
+        <div class="tabelaInfMaj">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Naziv usluge</th>
+                        <th>Cena</th>                                
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var usluga in Model.listaUsluga)
+                    {
+                        <tr>
+                            <td>@usluga.NazivUsluge</td>
+                            <td>@usluga.CenaUsluge</td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+
+        <div class="komentarskiDiv">
+            <div class="divZaKomentare">
+                <h2>Komentari</h2>
+                @foreach (var komentar in Model.listaKomentara)
+                {
+                    <div class="divKomentara">
+                        <div class="podnosiocKomentara">
+                            <p><span class="labelaInf">Komentarisao - </span>@komentar.NazivKorisnika (@komentar.MejlKorisnika)</p>
+                        </div>
+                        <div class="sadrzajKomentara">
+                            <div class="komentarSadrzaj">
+                                <p>@komentar.SadrzajKomentara</p>
+                            </div>
+                        </div>
+                    </div>
+                }
+            </div>
+        </div>
+
+        <div class="divPovratka">
+            <button class="registrujSeDugme dugmme" type="submit" asp-page="Index">Povratak na pocetnu stranu</button>
+        </div>
+    </form>
+</div>

@@ -1,0 +1,462 @@
+C:\Users\Ivan\Desktop\QuickFix\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\Ivan\Desktop\QuickFix\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\Ivan\Desktop\QuickFix\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+C:\Users\Ivan\Desktop\QuickFix\bin\Debug\netcoreapp3.1\QuickFix.exe
+C:\Users\Ivan\Desktop\QuickFix\bin\Debug\netcoreapp3.1\QuickFix.deps.json
+C:\Users\Ivan\Desktop\QuickFix\bin\Debug\netcoreapp3.1\QuickFix.runtimeconfig.json
+C:\Users\Ivan\Desktop\QuickFix\bin\Debug\netcoreapp3.1\QuickFix.runtimeconfig.dev.json
+C:\Users\Ivan\Desktop\QuickFix\bin\Debug\netcoreapp3.1\QuickFix.dll
+C:\Users\Ivan\Desktop\QuickFix\bin\Debug\netcoreapp3.1\QuickFix.pdb
+C:\Users\Ivan\Desktop\QuickFix\bin\Debug\netcoreapp3.1\QuickFix.Views.dll
+C:\Users\Ivan\Desktop\QuickFix\bin\Debug\netcoreapp3.1\QuickFix.Views.pdb
+C:\Users\Ivan\Desktop\QuickFix\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Ivan\Desktop\QuickFix\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+C:\Users\Ivan\Desktop\QuickFix\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Ivan\Desktop\QuickFix\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\Users\Ivan\Desktop\QuickFix\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Ivan\Desktop\QuickFix\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Ivan\Desktop\QuickFix\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Ivan\Desktop\QuickFix\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\Ivan\Desktop\QuickFix\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\Ivan\Desktop\QuickFix\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Ivan\Desktop\QuickFix\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+C:\Users\Ivan\Desktop\QuickFix\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Ivan\Desktop\QuickFix\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\Ivan\Desktop\QuickFix\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Ivan\Desktop\QuickFix\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Ivan\Desktop\QuickFix\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\Users\Ivan\Desktop\QuickFix\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Ivan\Desktop\QuickFix\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\Users\Ivan\Desktop\QuickFix\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\Ivan\Desktop\QuickFix\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+C:\Users\Ivan\Desktop\QuickFix\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Users\Ivan\Desktop\QuickFix\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+C:\Users\Ivan\Desktop\QuickFix\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Ivan\Desktop\QuickFix\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\Ivan\Desktop\QuickFix\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\Ivan\Desktop\QuickFix\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\Ivan\Desktop\QuickFix\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\Ivan\Desktop\QuickFix\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\Ivan\Desktop\QuickFix\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\Ivan\Desktop\QuickFix\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\Ivan\Desktop\QuickFix\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Ivan\Desktop\QuickFix\obj\Debug\netcoreapp3.1\QuickFix.csprojAssemblyReference.cache
+C:\Users\Ivan\Desktop\QuickFix\obj\Debug\netcoreapp3.1\staticwebassets\QuickFix.StaticWebAssets.Manifest.cache
+C:\Users\Ivan\Desktop\QuickFix\obj\Debug\netcoreapp3.1\staticwebassets\QuickFix.StaticWebAssets.xml
+C:\Users\Ivan\Desktop\QuickFix\obj\Debug\netcoreapp3.1\QuickFix.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Ivan\Desktop\QuickFix\obj\Debug\netcoreapp3.1\QuickFix.RazorAssemblyInfo.cache
+C:\Users\Ivan\Desktop\QuickFix\obj\Debug\netcoreapp3.1\QuickFix.RazorAssemblyInfo.cs
+C:\Users\Ivan\Desktop\QuickFix\obj\Debug\netcoreapp3.1\QuickFix.AssemblyInfoInputs.cache
+C:\Users\Ivan\Desktop\QuickFix\obj\Debug\netcoreapp3.1\QuickFix.AssemblyInfo.cs
+C:\Users\Ivan\Desktop\QuickFix\obj\Debug\netcoreapp3.1\QuickFix.TagHelpers.input.cache
+C:\Users\Ivan\Desktop\QuickFix\obj\Debug\netcoreapp3.1\QuickFix.TagHelpers.output.cache
+C:\Users\Ivan\Desktop\QuickFix\obj\Debug\netcoreapp3.1\QuickFix.RazorCoreGenerate.cache
+C:\Users\Ivan\Desktop\QuickFix\obj\Debug\netcoreapp3.1\Razor\Pages\Error.cshtml.g.cs
+C:\Users\Ivan\Desktop\QuickFix\obj\Debug\netcoreapp3.1\Razor\Pages\Index.cshtml.g.cs
+C:\Users\Ivan\Desktop\QuickFix\obj\Debug\netcoreapp3.1\Razor\Pages\Privacy.cshtml.g.cs
+C:\Users\Ivan\Desktop\QuickFix\obj\Debug\netcoreapp3.1\Razor\Pages\Shared\_Layout.cshtml.g.cs
+C:\Users\Ivan\Desktop\QuickFix\obj\Debug\netcoreapp3.1\Razor\Pages\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\Ivan\Desktop\QuickFix\obj\Debug\netcoreapp3.1\Razor\Pages\_ViewImports.cshtml.g.cs
+C:\Users\Ivan\Desktop\QuickFix\obj\Debug\netcoreapp3.1\Razor\Pages\_ViewStart.cshtml.g.cs
+C:\Users\Ivan\Desktop\QuickFix\obj\Debug\netcoreapp3.1\QuickFix.RazorTargetAssemblyInfo.cache
+C:\Users\Ivan\Desktop\QuickFix\obj\Debug\netcoreapp3.1\QuickFix.RazorTargetAssemblyInfo.cs
+C:\Users\Ivan\Desktop\QuickFix\obj\Debug\netcoreapp3.1\QuickFix.Views.pdb
+C:\Users\Ivan\Desktop\QuickFix\obj\Debug\netcoreapp3.1\QuickFix.csproj.CopyComplete
+C:\Users\Ivan\Desktop\QuickFix\obj\Debug\netcoreapp3.1\QuickFix.dll
+C:\Users\Ivan\Desktop\QuickFix\obj\Debug\netcoreapp3.1\QuickFix.pdb
+C:\Users\Ivan\Desktop\QuickFix\obj\Debug\netcoreapp3.1\Razor\Pages\Prijava.cshtml.g.cs
+C:\Users\Ivan\Desktop\QuickFix\obj\Debug\netcoreapp3.1\Razor\Pages\Registracija.cshtml.g.cs
+C:\Users\Ivan\Desktop\QuickFix\obj\Debug\netcoreapp3.1\Razor\Pages\RegistracijaKorisnik.cshtml.g.cs
+C:\Users\Ivan\Desktop\QuickFix\obj\Debug\netcoreapp3.1\Razor\Pages\RegistracijaMajstor.cshtml.g.cs
+C:\Users\Ivan\Desktop\QuickFix\obj\Debug\netcoreapp3.1\Razor\Pages\PrijavaKorisnik.cshtml.g.cs
+C:\Users\Ivan\Desktop\QuickFix\obj\Debug\netcoreapp3.1\Razor\Pages\PrijavaMajstor.cshtml.g.cs
+C:\Users\Ivan\Desktop\QuickFix\obj\Debug\netcoreapp3.1\Razor\Pages\KorisnickiInterfejs.cshtml.g.cs
+C:\Users\Ivan\Desktop\QuickFix\obj\Debug\netcoreapp3.1\Razor\Pages\MajstorInterfejs.cshtml.g.cs
+C:\Users\Ivan\Desktop\QuickFix\obj\Debug\netcoreapp3.1\Razor\Pages\AdminInterfejs.cshtml.g.cs
+C:\Users\Ivan\Desktop\New folder\QuickFix\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\Ivan\Desktop\New folder\QuickFix\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\Ivan\Desktop\New folder\QuickFix\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+C:\Users\Ivan\Desktop\New folder\QuickFix\bin\Debug\netcoreapp3.1\QuickFix.exe
+C:\Users\Ivan\Desktop\New folder\QuickFix\bin\Debug\netcoreapp3.1\QuickFix.deps.json
+C:\Users\Ivan\Desktop\New folder\QuickFix\bin\Debug\netcoreapp3.1\QuickFix.runtimeconfig.json
+C:\Users\Ivan\Desktop\New folder\QuickFix\bin\Debug\netcoreapp3.1\QuickFix.runtimeconfig.dev.json
+C:\Users\Ivan\Desktop\New folder\QuickFix\bin\Debug\netcoreapp3.1\QuickFix.dll
+C:\Users\Ivan\Desktop\New folder\QuickFix\bin\Debug\netcoreapp3.1\QuickFix.pdb
+C:\Users\Ivan\Desktop\New folder\QuickFix\bin\Debug\netcoreapp3.1\QuickFix.Views.dll
+C:\Users\Ivan\Desktop\New folder\QuickFix\bin\Debug\netcoreapp3.1\QuickFix.Views.pdb
+C:\Users\Ivan\Desktop\New folder\QuickFix\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Ivan\Desktop\New folder\QuickFix\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+C:\Users\Ivan\Desktop\New folder\QuickFix\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Ivan\Desktop\New folder\QuickFix\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\Users\Ivan\Desktop\New folder\QuickFix\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Ivan\Desktop\New folder\QuickFix\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Ivan\Desktop\New folder\QuickFix\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Ivan\Desktop\New folder\QuickFix\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\Ivan\Desktop\New folder\QuickFix\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\Ivan\Desktop\New folder\QuickFix\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Ivan\Desktop\New folder\QuickFix\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+C:\Users\Ivan\Desktop\New folder\QuickFix\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Ivan\Desktop\New folder\QuickFix\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\Ivan\Desktop\New folder\QuickFix\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Ivan\Desktop\New folder\QuickFix\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Ivan\Desktop\New folder\QuickFix\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\Users\Ivan\Desktop\New folder\QuickFix\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Ivan\Desktop\New folder\QuickFix\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\Users\Ivan\Desktop\New folder\QuickFix\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\Ivan\Desktop\New folder\QuickFix\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+C:\Users\Ivan\Desktop\New folder\QuickFix\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Users\Ivan\Desktop\New folder\QuickFix\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+C:\Users\Ivan\Desktop\New folder\QuickFix\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Ivan\Desktop\New folder\QuickFix\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\Ivan\Desktop\New folder\QuickFix\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\Ivan\Desktop\New folder\QuickFix\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\Ivan\Desktop\New folder\QuickFix\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\Ivan\Desktop\New folder\QuickFix\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\Ivan\Desktop\New folder\QuickFix\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\Ivan\Desktop\New folder\QuickFix\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\Ivan\Desktop\New folder\QuickFix\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Ivan\Desktop\New folder\QuickFix\obj\Debug\netcoreapp3.1\QuickFix.csprojAssemblyReference.cache
+C:\Users\Ivan\Desktop\New folder\QuickFix\obj\Debug\netcoreapp3.1\staticwebassets\QuickFix.StaticWebAssets.Manifest.cache
+C:\Users\Ivan\Desktop\New folder\QuickFix\obj\Debug\netcoreapp3.1\staticwebassets\QuickFix.StaticWebAssets.xml
+C:\Users\Ivan\Desktop\New folder\QuickFix\obj\Debug\netcoreapp3.1\QuickFix.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Ivan\Desktop\New folder\QuickFix\obj\Debug\netcoreapp3.1\QuickFix.RazorAssemblyInfo.cache
+C:\Users\Ivan\Desktop\New folder\QuickFix\obj\Debug\netcoreapp3.1\QuickFix.RazorAssemblyInfo.cs
+C:\Users\Ivan\Desktop\New folder\QuickFix\obj\Debug\netcoreapp3.1\QuickFix.AssemblyInfoInputs.cache
+C:\Users\Ivan\Desktop\New folder\QuickFix\obj\Debug\netcoreapp3.1\QuickFix.AssemblyInfo.cs
+C:\Users\Ivan\Desktop\New folder\QuickFix\obj\Debug\netcoreapp3.1\QuickFix.TagHelpers.input.cache
+C:\Users\Ivan\Desktop\New folder\QuickFix\obj\Debug\netcoreapp3.1\QuickFix.TagHelpers.output.cache
+C:\Users\Ivan\Desktop\New folder\QuickFix\obj\Debug\netcoreapp3.1\QuickFix.RazorCoreGenerate.cache
+C:\Users\Ivan\Desktop\New folder\QuickFix\obj\Debug\netcoreapp3.1\Razor\Pages\AdminInterfejs.cshtml.g.cs
+C:\Users\Ivan\Desktop\New folder\QuickFix\obj\Debug\netcoreapp3.1\Razor\Pages\Error.cshtml.g.cs
+C:\Users\Ivan\Desktop\New folder\QuickFix\obj\Debug\netcoreapp3.1\Razor\Pages\Index.cshtml.g.cs
+C:\Users\Ivan\Desktop\New folder\QuickFix\obj\Debug\netcoreapp3.1\Razor\Pages\KorisnickiInterfejs.cshtml.g.cs
+C:\Users\Ivan\Desktop\New folder\QuickFix\obj\Debug\netcoreapp3.1\Razor\Pages\MajstorInterfejs.cshtml.g.cs
+C:\Users\Ivan\Desktop\New folder\QuickFix\obj\Debug\netcoreapp3.1\Razor\Pages\Prijava.cshtml.g.cs
+C:\Users\Ivan\Desktop\New folder\QuickFix\obj\Debug\netcoreapp3.1\Razor\Pages\PrijavaKorisnik.cshtml.g.cs
+C:\Users\Ivan\Desktop\New folder\QuickFix\obj\Debug\netcoreapp3.1\Razor\Pages\PrijavaMajstor.cshtml.g.cs
+C:\Users\Ivan\Desktop\New folder\QuickFix\obj\Debug\netcoreapp3.1\Razor\Pages\Privacy.cshtml.g.cs
+C:\Users\Ivan\Desktop\New folder\QuickFix\obj\Debug\netcoreapp3.1\Razor\Pages\Registracija.cshtml.g.cs
+C:\Users\Ivan\Desktop\New folder\QuickFix\obj\Debug\netcoreapp3.1\Razor\Pages\RegistracijaKorisnik.cshtml.g.cs
+C:\Users\Ivan\Desktop\New folder\QuickFix\obj\Debug\netcoreapp3.1\Razor\Pages\RegistracijaMajstor.cshtml.g.cs
+C:\Users\Ivan\Desktop\New folder\QuickFix\obj\Debug\netcoreapp3.1\Razor\Pages\Shared\_Layout.cshtml.g.cs
+C:\Users\Ivan\Desktop\New folder\QuickFix\obj\Debug\netcoreapp3.1\Razor\Pages\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\Ivan\Desktop\New folder\QuickFix\obj\Debug\netcoreapp3.1\Razor\Pages\_ViewImports.cshtml.g.cs
+C:\Users\Ivan\Desktop\New folder\QuickFix\obj\Debug\netcoreapp3.1\Razor\Pages\_ViewStart.cshtml.g.cs
+C:\Users\Ivan\Desktop\New folder\QuickFix\obj\Debug\netcoreapp3.1\QuickFix.RazorTargetAssemblyInfo.cache
+C:\Users\Ivan\Desktop\New folder\QuickFix\obj\Debug\netcoreapp3.1\QuickFix.RazorTargetAssemblyInfo.cs
+C:\Users\Ivan\Desktop\New folder\QuickFix\obj\Debug\netcoreapp3.1\QuickFix.Views.pdb
+C:\Users\Ivan\Desktop\New folder\QuickFix\obj\Debug\netcoreapp3.1\QuickFix.csproj.CopyComplete
+C:\Users\Ivan\Desktop\New folder\QuickFix\obj\Debug\netcoreapp3.1\QuickFix.dll
+C:\Users\Ivan\Desktop\New folder\QuickFix\obj\Debug\netcoreapp3.1\QuickFix.pdb
+C:\Users\Ivan\Desktop\SI\Projekat\QuickFix\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\Ivan\Desktop\SI\Projekat\QuickFix\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\Ivan\Desktop\SI\Projekat\QuickFix\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+C:\Users\Ivan\Desktop\SI\Projekat\QuickFix\bin\Debug\netcoreapp3.1\QuickFix.exe
+C:\Users\Ivan\Desktop\SI\Projekat\QuickFix\bin\Debug\netcoreapp3.1\QuickFix.deps.json
+C:\Users\Ivan\Desktop\SI\Projekat\QuickFix\bin\Debug\netcoreapp3.1\QuickFix.runtimeconfig.json
+C:\Users\Ivan\Desktop\SI\Projekat\QuickFix\bin\Debug\netcoreapp3.1\QuickFix.runtimeconfig.dev.json
+C:\Users\Ivan\Desktop\SI\Projekat\QuickFix\bin\Debug\netcoreapp3.1\QuickFix.dll
+C:\Users\Ivan\Desktop\SI\Projekat\QuickFix\bin\Debug\netcoreapp3.1\QuickFix.pdb
+C:\Users\Ivan\Desktop\SI\Projekat\QuickFix\bin\Debug\netcoreapp3.1\QuickFix.Views.dll
+C:\Users\Ivan\Desktop\SI\Projekat\QuickFix\bin\Debug\netcoreapp3.1\QuickFix.Views.pdb
+C:\Users\Ivan\Desktop\SI\Projekat\QuickFix\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Ivan\Desktop\SI\Projekat\QuickFix\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+C:\Users\Ivan\Desktop\SI\Projekat\QuickFix\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Ivan\Desktop\SI\Projekat\QuickFix\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\Users\Ivan\Desktop\SI\Projekat\QuickFix\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Ivan\Desktop\SI\Projekat\QuickFix\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Ivan\Desktop\SI\Projekat\QuickFix\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Ivan\Desktop\SI\Projekat\QuickFix\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\Ivan\Desktop\SI\Projekat\QuickFix\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\Ivan\Desktop\SI\Projekat\QuickFix\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Ivan\Desktop\SI\Projekat\QuickFix\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+C:\Users\Ivan\Desktop\SI\Projekat\QuickFix\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Ivan\Desktop\SI\Projekat\QuickFix\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\Ivan\Desktop\SI\Projekat\QuickFix\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Ivan\Desktop\SI\Projekat\QuickFix\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Ivan\Desktop\SI\Projekat\QuickFix\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\Users\Ivan\Desktop\SI\Projekat\QuickFix\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Ivan\Desktop\SI\Projekat\QuickFix\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\Users\Ivan\Desktop\SI\Projekat\QuickFix\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\Ivan\Desktop\SI\Projekat\QuickFix\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+C:\Users\Ivan\Desktop\SI\Projekat\QuickFix\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Users\Ivan\Desktop\SI\Projekat\QuickFix\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+C:\Users\Ivan\Desktop\SI\Projekat\QuickFix\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Ivan\Desktop\SI\Projekat\QuickFix\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\Ivan\Desktop\SI\Projekat\QuickFix\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\Ivan\Desktop\SI\Projekat\QuickFix\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\Ivan\Desktop\SI\Projekat\QuickFix\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\Ivan\Desktop\SI\Projekat\QuickFix\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\Ivan\Desktop\SI\Projekat\QuickFix\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\Ivan\Desktop\SI\Projekat\QuickFix\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\Ivan\Desktop\SI\Projekat\QuickFix\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Ivan\Desktop\SI\Projekat\QuickFix\obj\Debug\netcoreapp3.1\QuickFix.csprojAssemblyReference.cache
+C:\Users\Ivan\Desktop\SI\Projekat\QuickFix\obj\Debug\netcoreapp3.1\staticwebassets\QuickFix.StaticWebAssets.Manifest.cache
+C:\Users\Ivan\Desktop\SI\Projekat\QuickFix\obj\Debug\netcoreapp3.1\staticwebassets\QuickFix.StaticWebAssets.xml
+C:\Users\Ivan\Desktop\SI\Projekat\QuickFix\obj\Debug\netcoreapp3.1\QuickFix.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Ivan\Desktop\SI\Projekat\QuickFix\obj\Debug\netcoreapp3.1\QuickFix.RazorAssemblyInfo.cache
+C:\Users\Ivan\Desktop\SI\Projekat\QuickFix\obj\Debug\netcoreapp3.1\QuickFix.RazorAssemblyInfo.cs
+C:\Users\Ivan\Desktop\SI\Projekat\QuickFix\obj\Debug\netcoreapp3.1\QuickFix.AssemblyInfoInputs.cache
+C:\Users\Ivan\Desktop\SI\Projekat\QuickFix\obj\Debug\netcoreapp3.1\QuickFix.AssemblyInfo.cs
+C:\Users\Ivan\Desktop\SI\Projekat\QuickFix\obj\Debug\netcoreapp3.1\QuickFix.TagHelpers.input.cache
+C:\Users\Ivan\Desktop\SI\Projekat\QuickFix\obj\Debug\netcoreapp3.1\QuickFix.TagHelpers.output.cache
+C:\Users\Ivan\Desktop\SI\Projekat\QuickFix\obj\Debug\netcoreapp3.1\QuickFix.RazorCoreGenerate.cache
+C:\Users\Ivan\Desktop\SI\Projekat\QuickFix\obj\Debug\netcoreapp3.1\Razor\Pages\AdminInterfejs.cshtml.g.cs
+C:\Users\Ivan\Desktop\SI\Projekat\QuickFix\obj\Debug\netcoreapp3.1\Razor\Pages\Error.cshtml.g.cs
+C:\Users\Ivan\Desktop\SI\Projekat\QuickFix\obj\Debug\netcoreapp3.1\Razor\Pages\Index.cshtml.g.cs
+C:\Users\Ivan\Desktop\SI\Projekat\QuickFix\obj\Debug\netcoreapp3.1\Razor\Pages\KorisnickiInterfejs.cshtml.g.cs
+C:\Users\Ivan\Desktop\SI\Projekat\QuickFix\obj\Debug\netcoreapp3.1\Razor\Pages\MajstorInterfejs.cshtml.g.cs
+C:\Users\Ivan\Desktop\SI\Projekat\QuickFix\obj\Debug\netcoreapp3.1\Razor\Pages\Prijava.cshtml.g.cs
+C:\Users\Ivan\Desktop\SI\Projekat\QuickFix\obj\Debug\netcoreapp3.1\Razor\Pages\PrijavaKorisnik.cshtml.g.cs
+C:\Users\Ivan\Desktop\SI\Projekat\QuickFix\obj\Debug\netcoreapp3.1\Razor\Pages\PrijavaMajstor.cshtml.g.cs
+C:\Users\Ivan\Desktop\SI\Projekat\QuickFix\obj\Debug\netcoreapp3.1\Razor\Pages\Privacy.cshtml.g.cs
+C:\Users\Ivan\Desktop\SI\Projekat\QuickFix\obj\Debug\netcoreapp3.1\Razor\Pages\Registracija.cshtml.g.cs
+C:\Users\Ivan\Desktop\SI\Projekat\QuickFix\obj\Debug\netcoreapp3.1\Razor\Pages\RegistracijaKorisnik.cshtml.g.cs
+C:\Users\Ivan\Desktop\SI\Projekat\QuickFix\obj\Debug\netcoreapp3.1\Razor\Pages\RegistracijaMajstor.cshtml.g.cs
+C:\Users\Ivan\Desktop\SI\Projekat\QuickFix\obj\Debug\netcoreapp3.1\Razor\Pages\Shared\_Layout.cshtml.g.cs
+C:\Users\Ivan\Desktop\SI\Projekat\QuickFix\obj\Debug\netcoreapp3.1\Razor\Pages\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\Ivan\Desktop\SI\Projekat\QuickFix\obj\Debug\netcoreapp3.1\Razor\Pages\_ViewImports.cshtml.g.cs
+C:\Users\Ivan\Desktop\SI\Projekat\QuickFix\obj\Debug\netcoreapp3.1\Razor\Pages\_ViewStart.cshtml.g.cs
+C:\Users\Ivan\Desktop\SI\Projekat\QuickFix\obj\Debug\netcoreapp3.1\QuickFix.RazorTargetAssemblyInfo.cache
+C:\Users\Ivan\Desktop\SI\Projekat\QuickFix\obj\Debug\netcoreapp3.1\QuickFix.RazorTargetAssemblyInfo.cs
+C:\Users\Ivan\Desktop\SI\Projekat\QuickFix\obj\Debug\netcoreapp3.1\QuickFix.Views.pdb
+C:\Users\Ivan\Desktop\SI\Projekat\QuickFix\obj\Debug\netcoreapp3.1\QuickFix.csproj.CopyComplete
+C:\Users\Ivan\Desktop\SI\Projekat\QuickFix\obj\Debug\netcoreapp3.1\QuickFix.dll
+C:\Users\Ivan\Desktop\SI\Projekat\QuickFix\obj\Debug\netcoreapp3.1\QuickFix.pdb
+C:\Users\Ivan\Desktop\SI\Projekat\Softversko\si.20.59.quickfix\Aplikacija\QuickFix\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\Ivan\Desktop\SI\Projekat\Softversko\si.20.59.quickfix\Aplikacija\QuickFix\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\Ivan\Desktop\SI\Projekat\Softversko\si.20.59.quickfix\Aplikacija\QuickFix\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+C:\Users\Ivan\Desktop\SI\Projekat\Softversko\si.20.59.quickfix\Aplikacija\QuickFix\bin\Debug\netcoreapp3.1\QuickFix.exe
+C:\Users\Ivan\Desktop\SI\Projekat\Softversko\si.20.59.quickfix\Aplikacija\QuickFix\bin\Debug\netcoreapp3.1\QuickFix.deps.json
+C:\Users\Ivan\Desktop\SI\Projekat\Softversko\si.20.59.quickfix\Aplikacija\QuickFix\bin\Debug\netcoreapp3.1\QuickFix.runtimeconfig.json
+C:\Users\Ivan\Desktop\SI\Projekat\Softversko\si.20.59.quickfix\Aplikacija\QuickFix\bin\Debug\netcoreapp3.1\QuickFix.runtimeconfig.dev.json
+C:\Users\Ivan\Desktop\SI\Projekat\Softversko\si.20.59.quickfix\Aplikacija\QuickFix\bin\Debug\netcoreapp3.1\QuickFix.dll
+C:\Users\Ivan\Desktop\SI\Projekat\Softversko\si.20.59.quickfix\Aplikacija\QuickFix\bin\Debug\netcoreapp3.1\QuickFix.pdb
+C:\Users\Ivan\Desktop\SI\Projekat\Softversko\si.20.59.quickfix\Aplikacija\QuickFix\bin\Debug\netcoreapp3.1\QuickFix.Views.dll
+C:\Users\Ivan\Desktop\SI\Projekat\Softversko\si.20.59.quickfix\Aplikacija\QuickFix\bin\Debug\netcoreapp3.1\QuickFix.Views.pdb
+C:\Users\Ivan\Desktop\SI\Projekat\Softversko\si.20.59.quickfix\Aplikacija\QuickFix\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Ivan\Desktop\SI\Projekat\Softversko\si.20.59.quickfix\Aplikacija\QuickFix\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+C:\Users\Ivan\Desktop\SI\Projekat\Softversko\si.20.59.quickfix\Aplikacija\QuickFix\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Ivan\Desktop\SI\Projekat\Softversko\si.20.59.quickfix\Aplikacija\QuickFix\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\Users\Ivan\Desktop\SI\Projekat\Softversko\si.20.59.quickfix\Aplikacija\QuickFix\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Ivan\Desktop\SI\Projekat\Softversko\si.20.59.quickfix\Aplikacija\QuickFix\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Ivan\Desktop\SI\Projekat\Softversko\si.20.59.quickfix\Aplikacija\QuickFix\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Ivan\Desktop\SI\Projekat\Softversko\si.20.59.quickfix\Aplikacija\QuickFix\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\Ivan\Desktop\SI\Projekat\Softversko\si.20.59.quickfix\Aplikacija\QuickFix\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\Ivan\Desktop\SI\Projekat\Softversko\si.20.59.quickfix\Aplikacija\QuickFix\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Ivan\Desktop\SI\Projekat\Softversko\si.20.59.quickfix\Aplikacija\QuickFix\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+C:\Users\Ivan\Desktop\SI\Projekat\Softversko\si.20.59.quickfix\Aplikacija\QuickFix\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Ivan\Desktop\SI\Projekat\Softversko\si.20.59.quickfix\Aplikacija\QuickFix\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\Ivan\Desktop\SI\Projekat\Softversko\si.20.59.quickfix\Aplikacija\QuickFix\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Ivan\Desktop\SI\Projekat\Softversko\si.20.59.quickfix\Aplikacija\QuickFix\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Ivan\Desktop\SI\Projekat\Softversko\si.20.59.quickfix\Aplikacija\QuickFix\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\Users\Ivan\Desktop\SI\Projekat\Softversko\si.20.59.quickfix\Aplikacija\QuickFix\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Ivan\Desktop\SI\Projekat\Softversko\si.20.59.quickfix\Aplikacija\QuickFix\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\Users\Ivan\Desktop\SI\Projekat\Softversko\si.20.59.quickfix\Aplikacija\QuickFix\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\Ivan\Desktop\SI\Projekat\Softversko\si.20.59.quickfix\Aplikacija\QuickFix\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+C:\Users\Ivan\Desktop\SI\Projekat\Softversko\si.20.59.quickfix\Aplikacija\QuickFix\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Users\Ivan\Desktop\SI\Projekat\Softversko\si.20.59.quickfix\Aplikacija\QuickFix\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+C:\Users\Ivan\Desktop\SI\Projekat\Softversko\si.20.59.quickfix\Aplikacija\QuickFix\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Ivan\Desktop\SI\Projekat\Softversko\si.20.59.quickfix\Aplikacija\QuickFix\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\Ivan\Desktop\SI\Projekat\Softversko\si.20.59.quickfix\Aplikacija\QuickFix\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\Ivan\Desktop\SI\Projekat\Softversko\si.20.59.quickfix\Aplikacija\QuickFix\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\Ivan\Desktop\SI\Projekat\Softversko\si.20.59.quickfix\Aplikacija\QuickFix\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\Ivan\Desktop\SI\Projekat\Softversko\si.20.59.quickfix\Aplikacija\QuickFix\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\Ivan\Desktop\SI\Projekat\Softversko\si.20.59.quickfix\Aplikacija\QuickFix\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\Ivan\Desktop\SI\Projekat\Softversko\si.20.59.quickfix\Aplikacija\QuickFix\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\Ivan\Desktop\SI\Projekat\Softversko\si.20.59.quickfix\Aplikacija\QuickFix\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Ivan\Desktop\SI\Projekat\Softversko\si.20.59.quickfix\Aplikacija\QuickFix\obj\Debug\netcoreapp3.1\QuickFix.csprojAssemblyReference.cache
+C:\Users\Ivan\Desktop\SI\Projekat\Softversko\si.20.59.quickfix\Aplikacija\QuickFix\obj\Debug\netcoreapp3.1\staticwebassets\QuickFix.StaticWebAssets.Manifest.cache
+C:\Users\Ivan\Desktop\SI\Projekat\Softversko\si.20.59.quickfix\Aplikacija\QuickFix\obj\Debug\netcoreapp3.1\staticwebassets\QuickFix.StaticWebAssets.xml
+C:\Users\Ivan\Desktop\SI\Projekat\Softversko\si.20.59.quickfix\Aplikacija\QuickFix\obj\Debug\netcoreapp3.1\QuickFix.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Ivan\Desktop\SI\Projekat\Softversko\si.20.59.quickfix\Aplikacija\QuickFix\obj\Debug\netcoreapp3.1\QuickFix.RazorAssemblyInfo.cache
+C:\Users\Ivan\Desktop\SI\Projekat\Softversko\si.20.59.quickfix\Aplikacija\QuickFix\obj\Debug\netcoreapp3.1\QuickFix.RazorAssemblyInfo.cs
+C:\Users\Ivan\Desktop\SI\Projekat\Softversko\si.20.59.quickfix\Aplikacija\QuickFix\obj\Debug\netcoreapp3.1\QuickFix.AssemblyInfoInputs.cache
+C:\Users\Ivan\Desktop\SI\Projekat\Softversko\si.20.59.quickfix\Aplikacija\QuickFix\obj\Debug\netcoreapp3.1\QuickFix.AssemblyInfo.cs
+C:\Users\Ivan\Desktop\SI\Projekat\Softversko\si.20.59.quickfix\Aplikacija\QuickFix\obj\Debug\netcoreapp3.1\QuickFix.TagHelpers.input.cache
+C:\Users\Ivan\Desktop\SI\Projekat\Softversko\si.20.59.quickfix\Aplikacija\QuickFix\obj\Debug\netcoreapp3.1\QuickFix.TagHelpers.output.cache
+C:\Users\Ivan\Desktop\SI\Projekat\Softversko\si.20.59.quickfix\Aplikacija\QuickFix\obj\Debug\netcoreapp3.1\QuickFix.RazorCoreGenerate.cache
+C:\Users\Ivan\Desktop\SI\Projekat\Softversko\si.20.59.quickfix\Aplikacija\QuickFix\obj\Debug\netcoreapp3.1\Razor\Pages\AdminInterfejs.cshtml.g.cs
+C:\Users\Ivan\Desktop\SI\Projekat\Softversko\si.20.59.quickfix\Aplikacija\QuickFix\obj\Debug\netcoreapp3.1\Razor\Pages\Error.cshtml.g.cs
+C:\Users\Ivan\Desktop\SI\Projekat\Softversko\si.20.59.quickfix\Aplikacija\QuickFix\obj\Debug\netcoreapp3.1\Razor\Pages\Index.cshtml.g.cs
+C:\Users\Ivan\Desktop\SI\Projekat\Softversko\si.20.59.quickfix\Aplikacija\QuickFix\obj\Debug\netcoreapp3.1\Razor\Pages\KorisnickiInterfejs.cshtml.g.cs
+C:\Users\Ivan\Desktop\SI\Projekat\Softversko\si.20.59.quickfix\Aplikacija\QuickFix\obj\Debug\netcoreapp3.1\Razor\Pages\MajstorInterfejs.cshtml.g.cs
+C:\Users\Ivan\Desktop\SI\Projekat\Softversko\si.20.59.quickfix\Aplikacija\QuickFix\obj\Debug\netcoreapp3.1\Razor\Pages\Prijava.cshtml.g.cs
+C:\Users\Ivan\Desktop\SI\Projekat\Softversko\si.20.59.quickfix\Aplikacija\QuickFix\obj\Debug\netcoreapp3.1\Razor\Pages\PrijavaKorisnik.cshtml.g.cs
+C:\Users\Ivan\Desktop\SI\Projekat\Softversko\si.20.59.quickfix\Aplikacija\QuickFix\obj\Debug\netcoreapp3.1\Razor\Pages\PrijavaMajstor.cshtml.g.cs
+C:\Users\Ivan\Desktop\SI\Projekat\Softversko\si.20.59.quickfix\Aplikacija\QuickFix\obj\Debug\netcoreapp3.1\Razor\Pages\Privacy.cshtml.g.cs
+C:\Users\Ivan\Desktop\SI\Projekat\Softversko\si.20.59.quickfix\Aplikacija\QuickFix\obj\Debug\netcoreapp3.1\Razor\Pages\Registracija.cshtml.g.cs
+C:\Users\Ivan\Desktop\SI\Projekat\Softversko\si.20.59.quickfix\Aplikacija\QuickFix\obj\Debug\netcoreapp3.1\Razor\Pages\RegistracijaKorisnik.cshtml.g.cs
+C:\Users\Ivan\Desktop\SI\Projekat\Softversko\si.20.59.quickfix\Aplikacija\QuickFix\obj\Debug\netcoreapp3.1\Razor\Pages\RegistracijaMajstor.cshtml.g.cs
+C:\Users\Ivan\Desktop\SI\Projekat\Softversko\si.20.59.quickfix\Aplikacija\QuickFix\obj\Debug\netcoreapp3.1\Razor\Pages\Shared\_Layout.cshtml.g.cs
+C:\Users\Ivan\Desktop\SI\Projekat\Softversko\si.20.59.quickfix\Aplikacija\QuickFix\obj\Debug\netcoreapp3.1\Razor\Pages\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\Ivan\Desktop\SI\Projekat\Softversko\si.20.59.quickfix\Aplikacija\QuickFix\obj\Debug\netcoreapp3.1\Razor\Pages\_ViewImports.cshtml.g.cs
+C:\Users\Ivan\Desktop\SI\Projekat\Softversko\si.20.59.quickfix\Aplikacija\QuickFix\obj\Debug\netcoreapp3.1\Razor\Pages\_ViewStart.cshtml.g.cs
+C:\Users\Ivan\Desktop\SI\Projekat\Softversko\si.20.59.quickfix\Aplikacija\QuickFix\obj\Debug\netcoreapp3.1\QuickFix.RazorTargetAssemblyInfo.cache
+C:\Users\Ivan\Desktop\SI\Projekat\Softversko\si.20.59.quickfix\Aplikacija\QuickFix\obj\Debug\netcoreapp3.1\QuickFix.RazorTargetAssemblyInfo.cs
+C:\Users\Ivan\Desktop\SI\Projekat\Softversko\si.20.59.quickfix\Aplikacija\QuickFix\obj\Debug\netcoreapp3.1\QuickFix.Views.pdb
+C:\Users\Ivan\Desktop\SI\Projekat\Softversko\si.20.59.quickfix\Aplikacija\QuickFix\obj\Debug\netcoreapp3.1\QuickFix.csproj.CopyComplete
+C:\Users\Ivan\Desktop\SI\Projekat\Softversko\si.20.59.quickfix\Aplikacija\QuickFix\obj\Debug\netcoreapp3.1\QuickFix.dll
+C:\Users\Ivan\Desktop\SI\Projekat\Softversko\si.20.59.quickfix\Aplikacija\QuickFix\obj\Debug\netcoreapp3.1\QuickFix.pdb
+C:\Users\Ivan\Desktop\SI\Projekat\Softversko\si.20.59.quickfix\Aplikacija\QuickFix\obj\Debug\netcoreapp3.1\Razor\Pages\RegistracijaServis.cshtml.g.cs
+C:\Users\Ivan\Desktop\SI\Projekat\Softversko\si.20.59.quickfix\Aplikacija\QuickFix\obj\Debug\netcoreapp3.1\Razor\Pages\AdminServisaInterfejs.cshtml.g.cs
+C:\Users\Ivan\Desktop\SI\Projekat\Softversko\si.20.59.quickfix\Aplikacija\QuickFix\obj\Debug\netcoreapp3.1\Razor\Pages\MajstorInformacije.cshtml.g.cs
+C:\Users\Ivan\Desktop\SI\Projekat\Softversko\si.20.59.quickfix\Aplikacija\QuickFix\obj\Debug\netcoreapp3.1\Razor\Pages\Majstor.cshtml.g.cs
+C:\Users\Ivan\Desktop\SW\Projekat\Softversko\si.20.59.quickfix\Aplikacija\QuickFix\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\Ivan\Desktop\SW\Projekat\Softversko\si.20.59.quickfix\Aplikacija\QuickFix\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\Ivan\Desktop\SW\Projekat\Softversko\si.20.59.quickfix\Aplikacija\QuickFix\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+C:\Users\Ivan\Desktop\SW\Projekat\Softversko\si.20.59.quickfix\Aplikacija\QuickFix\bin\Debug\netcoreapp3.1\QuickFix.exe
+C:\Users\Ivan\Desktop\SW\Projekat\Softversko\si.20.59.quickfix\Aplikacija\QuickFix\bin\Debug\netcoreapp3.1\QuickFix.deps.json
+C:\Users\Ivan\Desktop\SW\Projekat\Softversko\si.20.59.quickfix\Aplikacija\QuickFix\bin\Debug\netcoreapp3.1\QuickFix.runtimeconfig.json
+C:\Users\Ivan\Desktop\SW\Projekat\Softversko\si.20.59.quickfix\Aplikacija\QuickFix\bin\Debug\netcoreapp3.1\QuickFix.runtimeconfig.dev.json
+C:\Users\Ivan\Desktop\SW\Projekat\Softversko\si.20.59.quickfix\Aplikacija\QuickFix\bin\Debug\netcoreapp3.1\QuickFix.dll
+C:\Users\Ivan\Desktop\SW\Projekat\Softversko\si.20.59.quickfix\Aplikacija\QuickFix\bin\Debug\netcoreapp3.1\QuickFix.pdb
+C:\Users\Ivan\Desktop\SW\Projekat\Softversko\si.20.59.quickfix\Aplikacija\QuickFix\bin\Debug\netcoreapp3.1\QuickFix.Views.dll
+C:\Users\Ivan\Desktop\SW\Projekat\Softversko\si.20.59.quickfix\Aplikacija\QuickFix\bin\Debug\netcoreapp3.1\QuickFix.Views.pdb
+C:\Users\Ivan\Desktop\SW\Projekat\Softversko\si.20.59.quickfix\Aplikacija\QuickFix\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Ivan\Desktop\SW\Projekat\Softversko\si.20.59.quickfix\Aplikacija\QuickFix\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+C:\Users\Ivan\Desktop\SW\Projekat\Softversko\si.20.59.quickfix\Aplikacija\QuickFix\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Ivan\Desktop\SW\Projekat\Softversko\si.20.59.quickfix\Aplikacija\QuickFix\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\Users\Ivan\Desktop\SW\Projekat\Softversko\si.20.59.quickfix\Aplikacija\QuickFix\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Ivan\Desktop\SW\Projekat\Softversko\si.20.59.quickfix\Aplikacija\QuickFix\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Ivan\Desktop\SW\Projekat\Softversko\si.20.59.quickfix\Aplikacija\QuickFix\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Ivan\Desktop\SW\Projekat\Softversko\si.20.59.quickfix\Aplikacija\QuickFix\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\Ivan\Desktop\SW\Projekat\Softversko\si.20.59.quickfix\Aplikacija\QuickFix\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\Ivan\Desktop\SW\Projekat\Softversko\si.20.59.quickfix\Aplikacija\QuickFix\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Ivan\Desktop\SW\Projekat\Softversko\si.20.59.quickfix\Aplikacija\QuickFix\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+C:\Users\Ivan\Desktop\SW\Projekat\Softversko\si.20.59.quickfix\Aplikacija\QuickFix\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Ivan\Desktop\SW\Projekat\Softversko\si.20.59.quickfix\Aplikacija\QuickFix\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\Ivan\Desktop\SW\Projekat\Softversko\si.20.59.quickfix\Aplikacija\QuickFix\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Ivan\Desktop\SW\Projekat\Softversko\si.20.59.quickfix\Aplikacija\QuickFix\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Ivan\Desktop\SW\Projekat\Softversko\si.20.59.quickfix\Aplikacija\QuickFix\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\Users\Ivan\Desktop\SW\Projekat\Softversko\si.20.59.quickfix\Aplikacija\QuickFix\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Ivan\Desktop\SW\Projekat\Softversko\si.20.59.quickfix\Aplikacija\QuickFix\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\Users\Ivan\Desktop\SW\Projekat\Softversko\si.20.59.quickfix\Aplikacija\QuickFix\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\Ivan\Desktop\SW\Projekat\Softversko\si.20.59.quickfix\Aplikacija\QuickFix\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+C:\Users\Ivan\Desktop\SW\Projekat\Softversko\si.20.59.quickfix\Aplikacija\QuickFix\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Users\Ivan\Desktop\SW\Projekat\Softversko\si.20.59.quickfix\Aplikacija\QuickFix\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+C:\Users\Ivan\Desktop\SW\Projekat\Softversko\si.20.59.quickfix\Aplikacija\QuickFix\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Ivan\Desktop\SW\Projekat\Softversko\si.20.59.quickfix\Aplikacija\QuickFix\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\Ivan\Desktop\SW\Projekat\Softversko\si.20.59.quickfix\Aplikacija\QuickFix\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\Ivan\Desktop\SW\Projekat\Softversko\si.20.59.quickfix\Aplikacija\QuickFix\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\Ivan\Desktop\SW\Projekat\Softversko\si.20.59.quickfix\Aplikacija\QuickFix\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\Ivan\Desktop\SW\Projekat\Softversko\si.20.59.quickfix\Aplikacija\QuickFix\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\Ivan\Desktop\SW\Projekat\Softversko\si.20.59.quickfix\Aplikacija\QuickFix\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\Ivan\Desktop\SW\Projekat\Softversko\si.20.59.quickfix\Aplikacija\QuickFix\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\Ivan\Desktop\SW\Projekat\Softversko\si.20.59.quickfix\Aplikacija\QuickFix\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Ivan\Desktop\SW\Projekat\Softversko\si.20.59.quickfix\Aplikacija\QuickFix\obj\Debug\netcoreapp3.1\QuickFix.csprojAssemblyReference.cache
+C:\Users\Ivan\Desktop\SW\Projekat\Softversko\si.20.59.quickfix\Aplikacija\QuickFix\obj\Debug\netcoreapp3.1\staticwebassets\QuickFix.StaticWebAssets.Manifest.cache
+C:\Users\Ivan\Desktop\SW\Projekat\Softversko\si.20.59.quickfix\Aplikacija\QuickFix\obj\Debug\netcoreapp3.1\staticwebassets\QuickFix.StaticWebAssets.xml
+C:\Users\Ivan\Desktop\SW\Projekat\Softversko\si.20.59.quickfix\Aplikacija\QuickFix\obj\Debug\netcoreapp3.1\QuickFix.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Ivan\Desktop\SW\Projekat\Softversko\si.20.59.quickfix\Aplikacija\QuickFix\obj\Debug\netcoreapp3.1\QuickFix.RazorAssemblyInfo.cache
+C:\Users\Ivan\Desktop\SW\Projekat\Softversko\si.20.59.quickfix\Aplikacija\QuickFix\obj\Debug\netcoreapp3.1\QuickFix.RazorAssemblyInfo.cs
+C:\Users\Ivan\Desktop\SW\Projekat\Softversko\si.20.59.quickfix\Aplikacija\QuickFix\obj\Debug\netcoreapp3.1\QuickFix.AssemblyInfoInputs.cache
+C:\Users\Ivan\Desktop\SW\Projekat\Softversko\si.20.59.quickfix\Aplikacija\QuickFix\obj\Debug\netcoreapp3.1\QuickFix.AssemblyInfo.cs
+C:\Users\Ivan\Desktop\SW\Projekat\Softversko\si.20.59.quickfix\Aplikacija\QuickFix\obj\Debug\netcoreapp3.1\QuickFix.TagHelpers.input.cache
+C:\Users\Ivan\Desktop\SW\Projekat\Softversko\si.20.59.quickfix\Aplikacija\QuickFix\obj\Debug\netcoreapp3.1\QuickFix.TagHelpers.output.cache
+C:\Users\Ivan\Desktop\SW\Projekat\Softversko\si.20.59.quickfix\Aplikacija\QuickFix\obj\Debug\netcoreapp3.1\QuickFix.RazorCoreGenerate.cache
+C:\Users\Ivan\Desktop\SW\Projekat\Softversko\si.20.59.quickfix\Aplikacija\QuickFix\obj\Debug\netcoreapp3.1\Razor\Pages\AdminInterfejs.cshtml.g.cs
+C:\Users\Ivan\Desktop\SW\Projekat\Softversko\si.20.59.quickfix\Aplikacija\QuickFix\obj\Debug\netcoreapp3.1\Razor\Pages\AdminServisaInterfejs.cshtml.g.cs
+C:\Users\Ivan\Desktop\SW\Projekat\Softversko\si.20.59.quickfix\Aplikacija\QuickFix\obj\Debug\netcoreapp3.1\Razor\Pages\Error.cshtml.g.cs
+C:\Users\Ivan\Desktop\SW\Projekat\Softversko\si.20.59.quickfix\Aplikacija\QuickFix\obj\Debug\netcoreapp3.1\Razor\Pages\Index.cshtml.g.cs
+C:\Users\Ivan\Desktop\SW\Projekat\Softversko\si.20.59.quickfix\Aplikacija\QuickFix\obj\Debug\netcoreapp3.1\Razor\Pages\KorisnickiInterfejs.cshtml.g.cs
+C:\Users\Ivan\Desktop\SW\Projekat\Softversko\si.20.59.quickfix\Aplikacija\QuickFix\obj\Debug\netcoreapp3.1\Razor\Pages\Majstor.cshtml.g.cs
+C:\Users\Ivan\Desktop\SW\Projekat\Softversko\si.20.59.quickfix\Aplikacija\QuickFix\obj\Debug\netcoreapp3.1\Razor\Pages\MajstorInformacije.cshtml.g.cs
+C:\Users\Ivan\Desktop\SW\Projekat\Softversko\si.20.59.quickfix\Aplikacija\QuickFix\obj\Debug\netcoreapp3.1\Razor\Pages\MajstorInterfejs.cshtml.g.cs
+C:\Users\Ivan\Desktop\SW\Projekat\Softversko\si.20.59.quickfix\Aplikacija\QuickFix\obj\Debug\netcoreapp3.1\Razor\Pages\Prijava.cshtml.g.cs
+C:\Users\Ivan\Desktop\SW\Projekat\Softversko\si.20.59.quickfix\Aplikacija\QuickFix\obj\Debug\netcoreapp3.1\Razor\Pages\PrijavaKorisnik.cshtml.g.cs
+C:\Users\Ivan\Desktop\SW\Projekat\Softversko\si.20.59.quickfix\Aplikacija\QuickFix\obj\Debug\netcoreapp3.1\Razor\Pages\PrijavaMajstor.cshtml.g.cs
+C:\Users\Ivan\Desktop\SW\Projekat\Softversko\si.20.59.quickfix\Aplikacija\QuickFix\obj\Debug\netcoreapp3.1\Razor\Pages\Privacy.cshtml.g.cs
+C:\Users\Ivan\Desktop\SW\Projekat\Softversko\si.20.59.quickfix\Aplikacija\QuickFix\obj\Debug\netcoreapp3.1\Razor\Pages\Registracija.cshtml.g.cs
+C:\Users\Ivan\Desktop\SW\Projekat\Softversko\si.20.59.quickfix\Aplikacija\QuickFix\obj\Debug\netcoreapp3.1\Razor\Pages\RegistracijaKorisnik.cshtml.g.cs
+C:\Users\Ivan\Desktop\SW\Projekat\Softversko\si.20.59.quickfix\Aplikacija\QuickFix\obj\Debug\netcoreapp3.1\Razor\Pages\RegistracijaMajstor.cshtml.g.cs
+C:\Users\Ivan\Desktop\SW\Projekat\Softversko\si.20.59.quickfix\Aplikacija\QuickFix\obj\Debug\netcoreapp3.1\Razor\Pages\RegistracijaServis.cshtml.g.cs
+C:\Users\Ivan\Desktop\SW\Projekat\Softversko\si.20.59.quickfix\Aplikacija\QuickFix\obj\Debug\netcoreapp3.1\Razor\Pages\Shared\_Layout.cshtml.g.cs
+C:\Users\Ivan\Desktop\SW\Projekat\Softversko\si.20.59.quickfix\Aplikacija\QuickFix\obj\Debug\netcoreapp3.1\Razor\Pages\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\Ivan\Desktop\SW\Projekat\Softversko\si.20.59.quickfix\Aplikacija\QuickFix\obj\Debug\netcoreapp3.1\Razor\Pages\_ViewImports.cshtml.g.cs
+C:\Users\Ivan\Desktop\SW\Projekat\Softversko\si.20.59.quickfix\Aplikacija\QuickFix\obj\Debug\netcoreapp3.1\Razor\Pages\_ViewStart.cshtml.g.cs
+C:\Users\Ivan\Desktop\SW\Projekat\Softversko\si.20.59.quickfix\Aplikacija\QuickFix\obj\Debug\netcoreapp3.1\QuickFix.RazorTargetAssemblyInfo.cache
+C:\Users\Ivan\Desktop\SW\Projekat\Softversko\si.20.59.quickfix\Aplikacija\QuickFix\obj\Debug\netcoreapp3.1\QuickFix.RazorTargetAssemblyInfo.cs
+C:\Users\Ivan\Desktop\SW\Projekat\Softversko\si.20.59.quickfix\Aplikacija\QuickFix\obj\Debug\netcoreapp3.1\QuickFix.Views.pdb
+C:\Users\Ivan\Desktop\SW\Projekat\Softversko\si.20.59.quickfix\Aplikacija\QuickFix\obj\Debug\netcoreapp3.1\QuickFix.csproj.CopyComplete
+C:\Users\Ivan\Desktop\SW\Projekat\Softversko\si.20.59.quickfix\Aplikacija\QuickFix\obj\Debug\netcoreapp3.1\QuickFix.dll
+C:\Users\Ivan\Desktop\SW\Projekat\Softversko\si.20.59.quickfix\Aplikacija\QuickFix\obj\Debug\netcoreapp3.1\QuickFix.pdb
+D:\Faks\Godina 3\SW\Projekat\Softversko\si.20.59.quickfix\Aplikacija\QuickFix\bin\Debug\netcoreapp3.1\appsettings.Development.json
+D:\Faks\Godina 3\SW\Projekat\Softversko\si.20.59.quickfix\Aplikacija\QuickFix\bin\Debug\netcoreapp3.1\appsettings.json
+D:\Faks\Godina 3\SW\Projekat\Softversko\si.20.59.quickfix\Aplikacija\QuickFix\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+D:\Faks\Godina 3\SW\Projekat\Softversko\si.20.59.quickfix\Aplikacija\QuickFix\bin\Debug\netcoreapp3.1\QuickFix.exe
+D:\Faks\Godina 3\SW\Projekat\Softversko\si.20.59.quickfix\Aplikacija\QuickFix\bin\Debug\netcoreapp3.1\QuickFix.deps.json
+D:\Faks\Godina 3\SW\Projekat\Softversko\si.20.59.quickfix\Aplikacija\QuickFix\bin\Debug\netcoreapp3.1\QuickFix.runtimeconfig.json
+D:\Faks\Godina 3\SW\Projekat\Softversko\si.20.59.quickfix\Aplikacija\QuickFix\bin\Debug\netcoreapp3.1\QuickFix.runtimeconfig.dev.json
+D:\Faks\Godina 3\SW\Projekat\Softversko\si.20.59.quickfix\Aplikacija\QuickFix\bin\Debug\netcoreapp3.1\QuickFix.dll
+D:\Faks\Godina 3\SW\Projekat\Softversko\si.20.59.quickfix\Aplikacija\QuickFix\bin\Debug\netcoreapp3.1\QuickFix.pdb
+D:\Faks\Godina 3\SW\Projekat\Softversko\si.20.59.quickfix\Aplikacija\QuickFix\bin\Debug\netcoreapp3.1\QuickFix.Views.dll
+D:\Faks\Godina 3\SW\Projekat\Softversko\si.20.59.quickfix\Aplikacija\QuickFix\bin\Debug\netcoreapp3.1\QuickFix.Views.pdb
+D:\Faks\Godina 3\SW\Projekat\Softversko\si.20.59.quickfix\Aplikacija\QuickFix\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Faks\Godina 3\SW\Projekat\Softversko\si.20.59.quickfix\Aplikacija\QuickFix\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+D:\Faks\Godina 3\SW\Projekat\Softversko\si.20.59.quickfix\Aplikacija\QuickFix\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\Faks\Godina 3\SW\Projekat\Softversko\si.20.59.quickfix\Aplikacija\QuickFix\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+D:\Faks\Godina 3\SW\Projekat\Softversko\si.20.59.quickfix\Aplikacija\QuickFix\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Faks\Godina 3\SW\Projekat\Softversko\si.20.59.quickfix\Aplikacija\QuickFix\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+D:\Faks\Godina 3\SW\Projekat\Softversko\si.20.59.quickfix\Aplikacija\QuickFix\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Faks\Godina 3\SW\Projekat\Softversko\si.20.59.quickfix\Aplikacija\QuickFix\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\Faks\Godina 3\SW\Projekat\Softversko\si.20.59.quickfix\Aplikacija\QuickFix\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+D:\Faks\Godina 3\SW\Projekat\Softversko\si.20.59.quickfix\Aplikacija\QuickFix\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+D:\Faks\Godina 3\SW\Projekat\Softversko\si.20.59.quickfix\Aplikacija\QuickFix\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+D:\Faks\Godina 3\SW\Projekat\Softversko\si.20.59.quickfix\Aplikacija\QuickFix\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\Faks\Godina 3\SW\Projekat\Softversko\si.20.59.quickfix\Aplikacija\QuickFix\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+D:\Faks\Godina 3\SW\Projekat\Softversko\si.20.59.quickfix\Aplikacija\QuickFix\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+D:\Faks\Godina 3\SW\Projekat\Softversko\si.20.59.quickfix\Aplikacija\QuickFix\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Faks\Godina 3\SW\Projekat\Softversko\si.20.59.quickfix\Aplikacija\QuickFix\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+D:\Faks\Godina 3\SW\Projekat\Softversko\si.20.59.quickfix\Aplikacija\QuickFix\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Faks\Godina 3\SW\Projekat\Softversko\si.20.59.quickfix\Aplikacija\QuickFix\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+D:\Faks\Godina 3\SW\Projekat\Softversko\si.20.59.quickfix\Aplikacija\QuickFix\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+D:\Faks\Godina 3\SW\Projekat\Softversko\si.20.59.quickfix\Aplikacija\QuickFix\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+D:\Faks\Godina 3\SW\Projekat\Softversko\si.20.59.quickfix\Aplikacija\QuickFix\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+D:\Faks\Godina 3\SW\Projekat\Softversko\si.20.59.quickfix\Aplikacija\QuickFix\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+D:\Faks\Godina 3\SW\Projekat\Softversko\si.20.59.quickfix\Aplikacija\QuickFix\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+D:\Faks\Godina 3\SW\Projekat\Softversko\si.20.59.quickfix\Aplikacija\QuickFix\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+D:\Faks\Godina 3\SW\Projekat\Softversko\si.20.59.quickfix\Aplikacija\QuickFix\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+D:\Faks\Godina 3\SW\Projekat\Softversko\si.20.59.quickfix\Aplikacija\QuickFix\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+D:\Faks\Godina 3\SW\Projekat\Softversko\si.20.59.quickfix\Aplikacija\QuickFix\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+D:\Faks\Godina 3\SW\Projekat\Softversko\si.20.59.quickfix\Aplikacija\QuickFix\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+D:\Faks\Godina 3\SW\Projekat\Softversko\si.20.59.quickfix\Aplikacija\QuickFix\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+D:\Faks\Godina 3\SW\Projekat\Softversko\si.20.59.quickfix\Aplikacija\QuickFix\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+D:\Faks\Godina 3\SW\Projekat\Softversko\si.20.59.quickfix\Aplikacija\QuickFix\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\Faks\Godina 3\SW\Projekat\Softversko\si.20.59.quickfix\Aplikacija\QuickFix\obj\Debug\netcoreapp3.1\QuickFix.csprojAssemblyReference.cache
+D:\Faks\Godina 3\SW\Projekat\Softversko\si.20.59.quickfix\Aplikacija\QuickFix\obj\Debug\netcoreapp3.1\staticwebassets\QuickFix.StaticWebAssets.Manifest.cache
+D:\Faks\Godina 3\SW\Projekat\Softversko\si.20.59.quickfix\Aplikacija\QuickFix\obj\Debug\netcoreapp3.1\staticwebassets\QuickFix.StaticWebAssets.xml
+D:\Faks\Godina 3\SW\Projekat\Softversko\si.20.59.quickfix\Aplikacija\QuickFix\obj\Debug\netcoreapp3.1\QuickFix.MvcApplicationPartsAssemblyInfo.cache
+D:\Faks\Godina 3\SW\Projekat\Softversko\si.20.59.quickfix\Aplikacija\QuickFix\obj\Debug\netcoreapp3.1\QuickFix.RazorAssemblyInfo.cache
+D:\Faks\Godina 3\SW\Projekat\Softversko\si.20.59.quickfix\Aplikacija\QuickFix\obj\Debug\netcoreapp3.1\QuickFix.RazorAssemblyInfo.cs
+D:\Faks\Godina 3\SW\Projekat\Softversko\si.20.59.quickfix\Aplikacija\QuickFix\obj\Debug\netcoreapp3.1\QuickFix.AssemblyInfoInputs.cache
+D:\Faks\Godina 3\SW\Projekat\Softversko\si.20.59.quickfix\Aplikacija\QuickFix\obj\Debug\netcoreapp3.1\QuickFix.AssemblyInfo.cs
+D:\Faks\Godina 3\SW\Projekat\Softversko\si.20.59.quickfix\Aplikacija\QuickFix\obj\Debug\netcoreapp3.1\QuickFix.TagHelpers.input.cache
+D:\Faks\Godina 3\SW\Projekat\Softversko\si.20.59.quickfix\Aplikacija\QuickFix\obj\Debug\netcoreapp3.1\QuickFix.TagHelpers.output.cache
+D:\Faks\Godina 3\SW\Projekat\Softversko\si.20.59.quickfix\Aplikacija\QuickFix\obj\Debug\netcoreapp3.1\QuickFix.RazorCoreGenerate.cache
+D:\Faks\Godina 3\SW\Projekat\Softversko\si.20.59.quickfix\Aplikacija\QuickFix\obj\Debug\netcoreapp3.1\Razor\Pages\AdminInterfejs.cshtml.g.cs
+D:\Faks\Godina 3\SW\Projekat\Softversko\si.20.59.quickfix\Aplikacija\QuickFix\obj\Debug\netcoreapp3.1\Razor\Pages\AdminServisaInterfejs.cshtml.g.cs
+D:\Faks\Godina 3\SW\Projekat\Softversko\si.20.59.quickfix\Aplikacija\QuickFix\obj\Debug\netcoreapp3.1\Razor\Pages\Error.cshtml.g.cs
+D:\Faks\Godina 3\SW\Projekat\Softversko\si.20.59.quickfix\Aplikacija\QuickFix\obj\Debug\netcoreapp3.1\Razor\Pages\Index.cshtml.g.cs
+D:\Faks\Godina 3\SW\Projekat\Softversko\si.20.59.quickfix\Aplikacija\QuickFix\obj\Debug\netcoreapp3.1\Razor\Pages\KorisnickiInterfejs.cshtml.g.cs
+D:\Faks\Godina 3\SW\Projekat\Softversko\si.20.59.quickfix\Aplikacija\QuickFix\obj\Debug\netcoreapp3.1\Razor\Pages\Majstor.cshtml.g.cs
+D:\Faks\Godina 3\SW\Projekat\Softversko\si.20.59.quickfix\Aplikacija\QuickFix\obj\Debug\netcoreapp3.1\Razor\Pages\MajstorInformacije.cshtml.g.cs
+D:\Faks\Godina 3\SW\Projekat\Softversko\si.20.59.quickfix\Aplikacija\QuickFix\obj\Debug\netcoreapp3.1\Razor\Pages\MajstorInterfejs.cshtml.g.cs
+D:\Faks\Godina 3\SW\Projekat\Softversko\si.20.59.quickfix\Aplikacija\QuickFix\obj\Debug\netcoreapp3.1\Razor\Pages\Prijava.cshtml.g.cs
+D:\Faks\Godina 3\SW\Projekat\Softversko\si.20.59.quickfix\Aplikacija\QuickFix\obj\Debug\netcoreapp3.1\Razor\Pages\PrijavaKorisnik.cshtml.g.cs
+D:\Faks\Godina 3\SW\Projekat\Softversko\si.20.59.quickfix\Aplikacija\QuickFix\obj\Debug\netcoreapp3.1\Razor\Pages\PrijavaMajstor.cshtml.g.cs
+D:\Faks\Godina 3\SW\Projekat\Softversko\si.20.59.quickfix\Aplikacija\QuickFix\obj\Debug\netcoreapp3.1\Razor\Pages\Privacy.cshtml.g.cs
+D:\Faks\Godina 3\SW\Projekat\Softversko\si.20.59.quickfix\Aplikacija\QuickFix\obj\Debug\netcoreapp3.1\Razor\Pages\Registracija.cshtml.g.cs
+D:\Faks\Godina 3\SW\Projekat\Softversko\si.20.59.quickfix\Aplikacija\QuickFix\obj\Debug\netcoreapp3.1\Razor\Pages\RegistracijaKorisnik.cshtml.g.cs
+D:\Faks\Godina 3\SW\Projekat\Softversko\si.20.59.quickfix\Aplikacija\QuickFix\obj\Debug\netcoreapp3.1\Razor\Pages\RegistracijaMajstor.cshtml.g.cs
+D:\Faks\Godina 3\SW\Projekat\Softversko\si.20.59.quickfix\Aplikacija\QuickFix\obj\Debug\netcoreapp3.1\Razor\Pages\RegistracijaServis.cshtml.g.cs
+D:\Faks\Godina 3\SW\Projekat\Softversko\si.20.59.quickfix\Aplikacija\QuickFix\obj\Debug\netcoreapp3.1\Razor\Pages\Shared\_Layout.cshtml.g.cs
+D:\Faks\Godina 3\SW\Projekat\Softversko\si.20.59.quickfix\Aplikacija\QuickFix\obj\Debug\netcoreapp3.1\Razor\Pages\Shared\_ValidationScriptsPartial.cshtml.g.cs
+D:\Faks\Godina 3\SW\Projekat\Softversko\si.20.59.quickfix\Aplikacija\QuickFix\obj\Debug\netcoreapp3.1\Razor\Pages\_ViewImports.cshtml.g.cs
+D:\Faks\Godina 3\SW\Projekat\Softversko\si.20.59.quickfix\Aplikacija\QuickFix\obj\Debug\netcoreapp3.1\Razor\Pages\_ViewStart.cshtml.g.cs
+D:\Faks\Godina 3\SW\Projekat\Softversko\si.20.59.quickfix\Aplikacija\QuickFix\obj\Debug\netcoreapp3.1\QuickFix.RazorTargetAssemblyInfo.cache
+D:\Faks\Godina 3\SW\Projekat\Softversko\si.20.59.quickfix\Aplikacija\QuickFix\obj\Debug\netcoreapp3.1\QuickFix.RazorTargetAssemblyInfo.cs
+D:\Faks\Godina 3\SW\Projekat\Softversko\si.20.59.quickfix\Aplikacija\QuickFix\obj\Debug\netcoreapp3.1\QuickFix.Views.pdb
+D:\Faks\Godina 3\SW\Projekat\Softversko\si.20.59.quickfix\Aplikacija\QuickFix\obj\Debug\netcoreapp3.1\QuickFix.csproj.CopyComplete
+D:\Faks\Godina 3\SW\Projekat\Softversko\si.20.59.quickfix\Aplikacija\QuickFix\obj\Debug\netcoreapp3.1\QuickFix.dll
+D:\Faks\Godina 3\SW\Projekat\Softversko\si.20.59.quickfix\Aplikacija\QuickFix\obj\Debug\netcoreapp3.1\QuickFix.pdb

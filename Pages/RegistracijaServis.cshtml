@@ -1,0 +1,150 @@
+@page
+@model RegistracijaServisModel
+@{
+    ViewData["Title"] = "Registracija Servisa";
+}
+
+<form method="POST">
+    <div class="div1">
+        <div class="div2">
+            <div class="labelaRegSer">
+                <h1>Registracija Servisa</h1>
+            </div>
+            <div class="pomm">
+                <div class="serviceSlika">
+                    <img src="~/Slike/service.jpg" alt="Service" class="serviceSlika">
+                </div>
+                <div class="divJosJedan">
+                    <div class="labell">
+                        <h5>Osnovne informacije o Servisu</h5>
+                    </div>
+                    <div class="divUnosa">
+                        <div class="divLabele">
+                            Naziv
+                        </div>
+                        <div class="divInputa">
+                            <input type="text" asp-for="noviZahtev.ZahtevNovServisNaziv">                    
+                        </div>    
+                        <div>
+                            <span asp-validation-for="noviZahtev.ZahtevNovServisNaziv" class="text-danger"></span>
+                        </div>                    
+                    </div>
+                    <div class="divUnosa">
+                        <div class="divLabele">
+                            Lokacija
+                        </div>
+                        <div class="divInputa">
+                            <input type="text" asp-for="noviZahtev.ZahtevNovServisLokacija">                       
+                        </div>
+                        <div>
+                            <span asp-validation-for="noviZahtev.ZahtevNovServisLokacija" class="text-danger"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="div3">
+            <div class="registracijaDivAdmin">
+                <div class="admin">
+                    <img src="~/Slike/admin.jpg" alt="Admin" class="adminSlika">
+                </div>
+                <div class="divJosJedan">
+                    <h5>Osnovne informacije o Adminu Servisa</h5>
+                </div>
+                <div class="divJosJedan">
+                    <div class="divUnosa">
+                        <div class="divLabele">
+                            Email
+                        </div>
+                        <div class="divInputa">
+                            <input type="text" asp-for="noviZahtev.ZahtevNovServisAdminEmail">
+                        </div>
+                        <div>
+                            <span asp-validation-for="noviZahtev.ZahtevNovServisAdminEmail" class="text-danger"></span>
+                        </div>
+                    </div>
+                    <div class="divUnosa">
+                        <div class="divLabele">
+                            Lozinka
+                        </div>
+                        <div class="divInputa">
+                            <input type="text" type="password" id="myInput" asp-for="noviZahtev.ZahtevNovServisAdminLozinka">
+                            <input type="checkbox" onclick="prikazPasworda()">Prikazi lozinku 
+                        </div>
+                        <div>
+                            <span asp-validation-for="noviZahtev.ZahtevNovServisAdminLozinka" class="text-danger"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="div4">
+            <div class="vlasnik">
+                <img src="~/Slike/korisnik.png" alt="Korisnik" class="vlasnikSlika">
+            </div>
+            <div class="opetNovi">
+                <div>
+                    <h5>Osnovne informacije o Vlasniku Servisa</h5>
+                </div>
+                <div class="divUnosa">
+                    <div class="divLabele">
+                        Ime
+                    </div>
+                    <div class="divInputa">
+                        <input type="text" asp-for="noviZahtev.ZahtevNovServisAdminIme">
+                    </div>
+                    <div>
+                        <span asp-validation-for="noviZahtev.ZahtevNovServisAdminIme" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="divUnosa">
+                    <div class="divLabele">
+                        Prezime
+                    </div>
+                    <div class="divInputa">
+                        <input type="text" asp-for="noviZahtev.ZahtevNovServisAdminPrezime">
+                    </div>
+                    <div>
+                        <span asp-validation-for="noviZahtev.ZahtevNovServisAdminPrezime" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="divUnosa">
+                    <div class="divLabele">
+                        Broj godina
+                    </div>
+                    <div class="divInputa">
+                        <input type="text" asp-for="noviZahtev.ZahtevNovServisAdminGod">
+                    </div>
+                    <div>
+                        <span asp-validation-for="noviZahtev.ZahtevNovServisAdminGod" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="divUnosa">
+                    <div class="divLabele">
+                        Iskustvo
+                    </div>
+                    <div class="divInputa">
+                        <input type="text" asp-for="noviZahtev.ZahtevNovServisAdminIskustvo">
+                    </div>
+                    <div>
+                        <span asp-validation-for="noviZahtev.ZahtevNovServisAdminIskustvo" class="text-danger"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button class="dugmeRegistracije" type="submit">Registracija</button>
+    </div>
+</form>
+
+<script>
+    function prikazPasworda() {
+        var x = document.getElementById("myInput");
+        if (x.type === "password") {
+            x.type = "text";
+        } else {
+            x.type = "password";
+        }
+    }
+</script>

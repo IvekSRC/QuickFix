@@ -1,0 +1,47 @@
+@page
+@model PrijavaModel
+@{
+    ViewData["Title"] = "Prijava";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="~/css/stil.css" />  
+    </head>
+    <body class="indexBody">
+        <form method="GET"> 
+            <div class="ovoJeGlavni">
+                <div class="glavniDivRegistracije">
+                    <div class="registracijaKorisnika">
+                        <div class="registracijaLabela">
+                            <h3>Prijavi se kao korisnik</h3>
+                        </div>
+                        <div class="tatko">
+                            <div>
+                                <img src="~/Slike/korisnik.png" alt="Korisnik" class="korisnikSlika">
+                            </div>
+                            <div class="dugmiciReg">
+                                <button class="prvoDugme" type="submit" asp-page="./PrijavaKorisnik">Prijava (Korisnik)</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="registracijaMajstora">
+                        <div class="registracijaLabela">
+                            <h3>Prijavi se kao majstor</h3>
+                        </div>
+                        <div class="tatko">
+                            <div>
+                                <img src="~/Slike/majstor.png" alt="Majstor" class="majstorPhoto">
+                            </div>
+                            <div class="dugmiciReg">
+                                <button class="drugoDugme" type="submit" asp-page="./PrijavaMajstor">Prijava (Majstor)</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </body>
+</html>

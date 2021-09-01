@@ -1,0 +1,507 @@
+@page
+@model KorisnickiInterfejsModel
+@{
+    ViewData["Title"] = "Korisnicki Interfejs";
+}
+
+<div class="basTatko tataa">
+    <form method="GET">
+        <div class="osnovniDiv">
+
+            <div class="levi">
+                <div class="unutarLevog">
+                    <div class="labelaUnutarLevog">
+                        <h1>Vasi podaci</h1>
+                    </div>
+                    <div class="divUnutarLevog">
+                        <p><span class="labelaInf">Ime i prezime - </span>@Model.prijavljeniKorisnik.KorisnikIme @Model.prijavljeniKorisnik.KorisnikPrezime</p>
+                    </div>
+                    <div class="divUnutarLevog">
+                        <p><span class="labelaInf">Email - </span>@Model.prijavljeniKorisnik.KorisnikEmail</p>
+                    </div>
+                    <div class="divUnutarLevog">
+                        <p><span class="labelaInf">Lokacija - </span>@Model.prijavljeniKorisnik.KorisnikLokacija</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="desni">
+                <div>
+                    <img src="~/Slike/korisnik.png" alt="Korisnik" class="korisnikSlika">
+                </div>
+            </div>
+
+        </div>
+    </form>
+
+    <form method="POST">
+        <div class="noviTata">
+            <h4>Zahtevi za uslugama</h4>
+            <div>
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>Majstor</th>
+                            <th>Usluga</th>
+                            <th>Ocena (Broj Ocena)</th>
+                            <th>Stanje</th>
+                            <th></th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var zahtev in Model.listaZahteva)
+                        {
+                            <tr>
+                                <td>@zahtev.ImeMajstora @zahtev.PrezimeMajstora</td>
+                                <td>@zahtev.UslugaMajstora</td>
+                                <td>@zahtev.OcenaMajstora (@zahtev.BrojOcenaMajstora)</td>
+                                <td>@zahtev.StanjeZahteva</td>
+                                @if(@zahtev.StanjeZahteva == "Popravljeno")
+                                {
+                                    <td><input type="number" class="inputOcene" asp-for="oceniMajstora"><button type="submit" class="oceniDugme" asp-route-id="@zahtev.ZahtevId" asp-page-handler="Oceni">Oceni</button></td>
+                                    <td>
+                                        <input type="text" class="novKomentar" asp-for="noviKomentar">
+                                        <button type="submit" class="oceniDugme" asp-route-id="@zahtev.ZahtevId" asp-route-majstor="@zahtev.Majstor.MajstorId" asp-page-handler="Komentarisi">Komentarisi</button>
+                                    </td>
+                                }
+                                <td><button type="submit" class="ukloniDugme" asp-route-id="@zahtev.ZahtevId" asp-page-handler="Ukloni">Ukloni</button></td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <div class="filterPretrage">
+
+            <div class="divParce">
+                <div class="filterLab">
+                    <h2>Pretraga</h2>
+                </div>
+            </div>
+
+            <div class="divParce">
+                <div class="filterLab">
+                    <p>Naziv servisa </p>
+                </div>
+                <div class="divUnosaFiltera">
+                    <input type="text" asp-for="IzabranServis">
+                </div>
+            </div>
+
+            <div class="divParce">
+                <div class="filterLab">
+                    <p>Usluga</p>
+                </div>
+                <div class="divUnosaFiltera">
+                    <input type="text" asp-for="IzabranaUsluga">
+                </div>
+            </div>
+
+            <div class="divParce">
+                <div class="filterLab">
+                    <p>Ime ili prezime</p>
+                </div>
+                <div class="divUnosaFiltera">
+                    <input type="text" asp-for="IzabranoIme">
+                </div>
+            </div>
+
+            <div class="filterDugme">
+                <button asp-page-handler="Pretrazi" class="filterDugmence" type="submit" onclick="fja()">Pretrazi</button>
+            </div> 
+
+        </div>
+
+        <div class="divDostupnihServisa">
+            <div class="divDostupnihServisaLab">
+                <h1>Dostupni Servisi</h1>
+            </div> 
+
+            <table class="tabelaOsnovnogPrikazaa">
+                <thead>
+                    <tr class="vecaTabela">
+                        <th class="vecaTabela">Naziv</th>
+                        <th class="vecaTabela">Lokacija</th>
+                        <th class="vecaTabela"></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @if(Model.IzabranServis != null)
+                    {
+                        @foreach (var servis in Model.listaServisa)
+                        {
+                            
+
+                                
+                            @if(servis.ServisIme.StartsWith(Model.IzabranServis))
+                            {
+                                
+                                <tr class="vecaTabela">
+                                    <td class="vecaTabela">@servis.ServisIme</td>
+                                    <td class="vecaTabela">@servis.ServisLokacija</td>
+                                    <td class="vecaTabela">
+                                        <button type="button" class="dostupniMajstori btn btn-info" data-toggle="collapse" data-target="#demo_@servis.ServisId">Dostupni majstori</button>
+                                        <div id="demo_@servis.ServisId" class="tabelaMajstora collapse">
+                                            <table>
+                                                <thead>
+                                                    <tr>
+                                                        <th class="manjaTabela">Ime</th>
+                                                        <th class="manjaTabela">Prezime</th>
+                                                        <th class="manjaTabela">Email</th>
+                                                        <th class="manjaTabela">Ocena (Broj ocena)</th>
+                                                        <th class="manjaTabela"></th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <div class="divZaManjuTabelu">
+                                                        @if(Model.IzabranaUsluga!=null)
+                                                        {
+                                                            @foreach (var majstor in servis.ListaMajstora)
+                                                            {
+                                                                @if(majstor.Usluge!=null)
+                                                                {
+                                                                    @if(Model.IzabranoIme!=null)
+                                                                    {
+                                                                        @foreach(var usluga in majstor.Usluge)
+                                                                        {
+                                                                            @if(usluga.NazivUsluge.StartsWith(Model.IzabranaUsluga) && (majstor.MajstorIme.StartsWith(Model.IzabranoIme) || majstor.MajstorPrezime.StartsWith(Model.IzabranoIme)))
+                                                                            {
+                                                                                <tr class="manjaTabela">
+                                                                                    <td class="manjaTabela">@majstor.MajstorIme</td>
+                                                                                    <td class="manjaTabela">@majstor.MajstorPrezime</td>                                                                
+                                                                                    <td class="manjaTabela">@majstor.MajstorEmail</td>
+                                                                                    <td class="manjaTabela">@majstor.MajstorOcena (@majstor.BrojOcena)</td>
+                                                                                    <td class="manjaTabela">
+                                                                                        <a asp-page="./Majstor" asp-route-id="@majstor.MajstorId">Detaljnije informacije</a>
+                                                                                    </td>
+                                                                                </tr>
+                                                                            }
+                                                                        }
+                                                                    }
+                                                                    else
+                                                                    {
+                                                                        @foreach(var usluga in majstor.Usluge)
+                                                                        {
+                                                                            @if(usluga.NazivUsluge.StartsWith(Model.IzabranaUsluga))
+                                                                            {
+                                                                                <tr class="manjaTabela">
+                                                                                    <td class="manjaTabela">@majstor.MajstorIme</td>
+                                                                                    <td class="manjaTabela">@majstor.MajstorPrezime</td>                                                                
+                                                                                    <td class="manjaTabela">@majstor.MajstorEmail</td>
+                                                                                    <td class="manjaTabela">@majstor.MajstorOcena (@majstor.BrojOcena)</td>
+                                                                                    <td class="manjaTabela">
+                                                                                        <a asp-page="./Majstor" asp-route-id="@majstor.MajstorId">Detaljnije informacije</a>
+                                                                                    </td>
+                                                                                </tr>
+                                                                            }
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                        else
+                                                        {
+                                                            @if(Model.IzabranoIme!=null)
+                                                            {
+                                                                
+                                                                @foreach (var majstor in servis.ListaMajstora)
+                                                                {
+                                                                    if(majstor.MajstorIme.StartsWith(Model.IzabranoIme) || majstor.MajstorPrezime.StartsWith(Model.IzabranoIme))
+                                                                    {
+                                                                        <tr class="manjaTabela">
+                                                                            <td class="manjaTabela">@majstor.MajstorIme</td>
+                                                                            <td class="manjaTabela">@majstor.MajstorPrezime</td>                                                                
+                                                                            <td class="manjaTabela">@majstor.MajstorEmail</td>
+                                                                            <td class="manjaTabela">@majstor.MajstorOcena (@majstor.BrojOcena)</td>
+                                                                            <td class="manjaTabela">
+                                                                                <a asp-page="./Majstor" asp-route-id="@majstor.MajstorId">Detaljnije informacije</a>
+                                                                            </td>
+                                                                        </tr>
+                                                                    }
+                                                                }
+                                                            }
+                                                            else
+                                                            {
+                                                                @foreach (var majstor in servis.ListaMajstora)
+                                                                {
+                                                                        <tr class="manjaTabela">
+                                                                            <td class="manjaTabela">@majstor.MajstorIme</td>
+                                                                            <td class="manjaTabela">@majstor.MajstorPrezime</td>                                                                
+                                                                            <td class="manjaTabela">@majstor.MajstorEmail</td>
+                                                                            <td class="manjaTabela">@majstor.MajstorOcena (@majstor.BrojOcena)</td>
+                                                                            <td class="manjaTabela">
+                                                                                <a asp-page="./Majstor" asp-route-id="@majstor.MajstorId">Detaljnije informacije</a>
+                                                                            </td>
+                                                                        </tr>
+                                                                }
+                                                            }
+                                                        }
+                                                    </div>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </td>
+                                </tr>
+                            }  
+                        }
+                        
+                    }
+                    else
+                    {
+                        @foreach (var servis in Model.listaServisa)
+                        {
+                            Model.ImaMajstora=false;
+                            Model.ImaUslugu=false;
+                            @foreach(var majst in servis.ListaMajstora)
+                            {
+                                @if(Model.IzabranoIme!=null && majst.MajstorIme.StartsWith(Model.IzabranoIme))
+                                    Model.ImaMajstora=true;
+                                @foreach(var uslug in majst.Usluge)
+                                {
+                                    @if(Model.IzabranaUsluga!=null && uslug.NazivUsluge.StartsWith(Model.IzabranaUsluga))
+                                        Model.ImaUslugu=true;
+                                }
+                            }
+                            @if((Model.IzabranaUsluga!=null && Model.ImaUslugu==true) || (Model.IzabranoIme!=null && Model.ImaMajstora==true) || (Model.IzabranaUsluga==null && Model.ImaMajstora==true) ||(Model.IzabranoIme==null && Model.ImaUslugu==true) || (Model.IzabranaUsluga==null && Model.IzabranoIme==null))
+                            {
+                            <tr class="vecaTabela">
+                                <td class="vecaTabela">@servis.ServisIme</td>
+                                <td class="vecaTabela">@servis.ServisLokacija</td>
+                                <td class="vecaTabela">
+                                    <button type="button" class="dostupniMajstori btn btn-info" data-toggle="collapse" data-target="#demo_@servis.ServisId">Dostupni majstori</button>
+                                    <div id="demo_@servis.ServisId" class="tabelaMajstora collapse">
+                                        <table>
+                                            <thead>
+                                                <tr>
+                                                    <th class="manjaTabela">Ime</th>
+                                                    <th class="manjaTabela">Prezime</th>
+                                                    <th class="manjaTabela">Email</th>
+                                                    <th class="manjaTabela">Ocena (Broj ocena)</th>
+                                                    <th class="manjaTabela"></th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <div class="divZaManjuTabelu">
+                                                    @if(Model.IzabranaUsluga!=null)
+                                                        {
+                                                        @foreach (var majstor in servis.ListaMajstora)
+                                                            {
+                                                                @if(majstor.Usluge!=null){
+                                                                    @if(Model.IzabranoIme!=null)
+                                                                    {
+                                                                        @foreach(var usluga in majstor.Usluge)
+                                                                        {
+                                                                            @if(usluga.NazivUsluge.StartsWith(Model.IzabranaUsluga) && (majstor.MajstorIme.StartsWith(Model.IzabranoIme) || majstor.MajstorPrezime.StartsWith(Model.IzabranoIme)))
+                                                                            {
+                                                                                <tr class="manjaTabela">
+                                                                                    <td class="manjaTabela">@majstor.MajstorIme</td>
+                                                                                    <td class="manjaTabela">@majstor.MajstorPrezime</td>                                                                
+                                                                                    <td class="manjaTabela">@majstor.MajstorEmail</td>
+                                                                                    <td class="manjaTabela">@majstor.MajstorOcena (@majstor.BrojOcena)</td>
+                                                                                    <td class="manjaTabela">
+                                                                                        <a asp-page="./Majstor" asp-route-id="@majstor.MajstorId">Detaljnije informacije</a>
+                                                                                    </td>
+                                                                                </tr>
+                                                                            }
+                                                                        }
+                                                                    }
+                                                                    else
+                                                                    {
+                                                                        @foreach(var usluga in majstor.Usluge)
+                                                                        {
+                                                                            @if(usluga.NazivUsluge.StartsWith(Model.IzabranaUsluga))
+                                                                            {
+                                                                                <tr class="manjaTabela">
+                                                                                    <td class="manjaTabela">@majstor.MajstorIme</td>
+                                                                                    <td class="manjaTabela">@majstor.MajstorPrezime</td>                                                                
+                                                                                    <td class="manjaTabela">@majstor.MajstorEmail</td>
+                                                                                    <td class="manjaTabela">@majstor.MajstorOcena (@majstor.BrojOcena)</td>
+                                                                                    <td class="manjaTabela">
+                                                                                        <a asp-page="./Majstor" asp-route-id="@majstor.MajstorId">Detaljnije informacije</a>
+                                                                                    </td>
+                                                                                </tr>
+                                                                            }
+                                                                        } 
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                        else
+                                                        {
+                                                            if(Model.IzabranoIme!=null)
+                                                            {
+                                                                @foreach (var majstor in servis.ListaMajstora)
+                                                                {
+                                                                    @if(majstor.MajstorIme.StartsWith(Model.IzabranoIme) || majstor.MajstorPrezime.StartsWith(Model.IzabranoIme))
+                                                                    {
+                                                                        <tr class="manjaTabela">
+                                                                            <td class="manjaTabela">@majstor.MajstorIme</td>
+                                                                            <td class="manjaTabela">@majstor.MajstorPrezime</td>                                                                
+                                                                            <td class="manjaTabela">@majstor.MajstorEmail</td>
+                                                                            <td class="manjaTabela">@majstor.MajstorOcena (@majstor.BrojOcena)</td>
+                                                                            <td class="manjaTabela">
+                                                                                <a asp-page="./Majstor" asp-route-id="@majstor.MajstorId">Detaljnije informacije</a>
+                                                                            </td>
+                                                                        </tr>
+                                                                    }
+                                                                }
+                                                            }
+                                                            else
+                                                            {
+                                                                @foreach (var majstor in servis.ListaMajstora)
+                                                                {
+                                                                        <tr class="manjaTabela">
+                                                                            <td class="manjaTabela">@majstor.MajstorIme</td>
+                                                                            <td class="manjaTabela">@majstor.MajstorPrezime</td>                                                                
+                                                                            <td class="manjaTabela">@majstor.MajstorEmail</td>
+                                                                            <td class="manjaTabela">@majstor.MajstorOcena (@majstor.BrojOcena)</td>
+                                                                            <td class="manjaTabela">
+                                                                                <a asp-page="./Majstor" asp-route-id="@majstor.MajstorId">Detaljnije informacije</a>
+                                                                            </td>
+                                                                        </tr>
+                                                                }
+                                                            }
+                                                        }
+                                                </div>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </td>
+                            </tr>
+                            }
+                        }
+                    }
+                </tbody>
+            </table>
+        </div>
+
+        <div class="divBezServisa">
+
+            @if (Model.PostojiMajstorBezServisa == 1 && Model.IzabranServis==null)
+            {
+                <div class="divBezServisaLab">
+                    <h1>Samostalni majstori (Bez servisa)</h1>
+                </div>
+
+                <table class="tabelaOsnovnogPrikazaa">
+                    <thead>
+                        <tr class="vecaTabela">
+                            <th class="vecaTabela">Ime</th>
+                            <th class="vecaTabela">Prezime</th>
+                            <th class="vecaTabela">Email</th>
+                            <th class="vecaTabela">Ocena (Broj Ocena)</th>
+                            <th class="vecaTabela"></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <div class="divZaManjuTabelu">
+                            @if(Model.IzabranaUsluga!=null)
+                            {
+                                @if(Model.IzabranoIme!=null)
+                                {
+                                    @foreach (var m in Model.listaMajstora)
+                                    {
+                                        @if (m.Servis == null)
+                                        {
+                                            @if(m.Usluge!=null)
+                                            {
+                                                @foreach (var usluga in m.Usluge)
+                                                {
+                                                    @if(usluga.NazivUsluge.StartsWith(Model.IzabranaUsluga) && (m.MajstorIme.StartsWith(Model.IzabranoIme) || m.MajstorPrezime.StartsWith(Model.IzabranoIme)))
+                                                    {
+                                                        <tr class="vecaTabela">
+                                                            <td class="vecaTabela">@m.MajstorIme</td>
+                                                            <td class="vecaTabela">@m.MajstorPrezime</td>
+                                                            <td class="vecaTabela">@m.MajstorEmail</td>
+                                                            <td class="vecaTabela">@m.MajstorOcena (@m.BrojOcena)</td>
+                                                            <td class="vecaTabela">
+                                                                <a asp-page="./Majstor" asp-route-id="@m.MajstorId">Detaljnije informacije</a>
+                                                            </td>
+                                                        </tr>
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                                else
+                                {
+                                    @foreach (var m in Model.listaMajstora)
+                                    {
+                                        @if (m.Servis == null)
+                                        {
+                                            @if(m.Usluge!=null)
+                                            {
+                                                @foreach (var usluga in m.Usluge)
+                                                {
+                                                    @if(usluga.NazivUsluge.StartsWith(Model.IzabranaUsluga))
+                                                    {
+                                                        <tr class="vecaTabela">
+                                                            <td class="vecaTabela">@m.MajstorIme</td>
+                                                            <td class="vecaTabela">@m.MajstorPrezime</td>
+                                                            <td class="vecaTabela">@m.MajstorEmail</td>
+                                                            <td class="vecaTabela">@m.MajstorOcena (@m.BrojOcena)</td>
+                                                            <td class="vecaTabela">
+                                                                <a asp-page="./Majstor" asp-route-id="@m.MajstorId">Detaljnije informacije</a>
+                                                            </td>
+                                                        </tr>
+                                                    }
+                                                }
+                                            }   
+                                        }
+                                    }
+                                }
+                            }
+                            else
+                            {
+                                @if(Model.IzabranoIme!=null)
+                                {
+                                    @foreach (var m in Model.listaMajstora)
+                                    {
+                                        @if (m.Servis == null)
+                                        {
+                                            @if(m.MajstorIme.StartsWith(Model.IzabranoIme) || m.MajstorPrezime.StartsWith(Model.IzabranoIme))
+                                            {
+                                                <tr class="vecaTabela">
+                                                    <td class="vecaTabela">@m.MajstorIme</td>
+                                                    <td class="vecaTabela">@m.MajstorPrezime</td>
+                                                    <td class="vecaTabela">@m.MajstorEmail</td>
+                                                    <td class="vecaTabela">@m.MajstorOcena (@m.BrojOcena)</td>
+                                                    <td class="vecaTabela">
+                                                        <a asp-page="./Majstor" asp-route-id="@m.MajstorId">Detaljnije informacije</a>
+                                                    </td>
+                                                </tr>
+                                            }
+                                        }
+                                    }
+                                }
+                                else
+                                {
+                                    @foreach (var m in Model.listaMajstora)
+                                    {
+                                        @if (m.Servis == null)
+                                        {
+                                            <tr class="vecaTabela">
+                                                <td class="vecaTabela">@m.MajstorIme</td>
+                                                <td class="vecaTabela">@m.MajstorPrezime</td>
+                                                <td class="vecaTabela">@m.MajstorEmail</td>
+                                                <td class="vecaTabela">@m.MajstorOcena (@m.BrojOcena)</td>
+                                                <td class="vecaTabela">
+                                                    <a asp-page="./Majstor" asp-route-id="@m.MajstorId">Detaljnije informacije</a>
+                                                </td>
+                                            </tr>
+                                        }
+                                    }
+                                }
+                            }
+                        </div>
+                    </tbody>
+                </table>
+            }
+        </div>
+
+        <button type="submit" class="odjavaDugme odjava" asp-page-handler="LogOut">Odjava</button>
+    </form>
+</div>

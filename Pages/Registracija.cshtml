@@ -1,0 +1,71 @@
+@page
+@model RegistracijaModel
+@{
+    ViewData["Title"] = "Registracija";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="~/css/stil.css" />  
+    </head>
+    <body class="indexBody">
+        <form method="GET"> 
+            <div class="glavniDivRegistracije">
+
+                <div class="registracijaKorisnika">
+                    <div class="registracijaLabela">
+                        <h3>Registruj se kao korisnik</h3>
+                    </div>
+                    <div class="tatko">
+                        <div>
+                            <img src="~/Slike/korisnik.png" alt="Korisnik" class="korisnikSlika">
+                        </div>
+                        <div class="dugmiciReg">
+                            <button class="prvoDugme" type="submit" asp-page="./RegistracijaKorisnik">Registracija (Korisnik)</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="registracijaKorisnika">
+                    <div class="registracijaLabela">
+                        <h3>Registracija Servisa</h3>
+                    </div>
+                    <div class="tatko">
+                        <div>
+                            <img src="~/Slike/service.jpg" alt="Service" class="korisnikSlika">
+                        </div>
+                        <div class="dugmiciReg">
+                            <button class="prvoDugme" type="submit" asp-page="./RegistracijaServis">Registracija (Servisa)</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="registracijaMajstora">
+                    <div class="registracijaLabela">
+                        <h3>Registruj se kao majstor</h3>
+                    </div>
+                    <div class="tatko">
+                        <div>
+                            <img src="~/Slike/majstor.png" alt="Majstor" class="majstorPhoto">
+                        </div>
+                        <div class="dugmiciReg">
+                            <button class="drugoDugme" type="submit" asp-page="./RegistracijaMajstor">Registracija (Majstor)</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </body>
+</html>
+
+<script>
+    function prikazSifret() {
+        var x = document.getElementById("myInpute");
+        if (x.type === "password") {
+            x.type = "text";
+        } else {
+            x.type = "password";
+        }
+    }
+</script>

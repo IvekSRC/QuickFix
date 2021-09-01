@@ -1,0 +1,219 @@
+@page
+@model AdminServisaInterfejs
+@{
+    ViewData["Title"] = "Admin";
+}
+
+<div class="lider">
+    <div class="serviskiDiv">
+        <div class="serverskiLevi">
+            <form method="GET">
+                <h4>Podaci o Servisu</h4>
+
+                <p><span class="labelaInf">Naziv servisa - </span>@Model.servis.ServisIme</p>
+                <p><span class="labelaInf">Lokacija servisa - </span>@Model.servis.ServisLokacija</p>
+            </form>
+
+            <form method="POST">
+                <div class="izmenaPodOSer">
+                    <h2>Izmeni podatke o servisu</h2>
+
+                    <div class="divcina">
+                        <div class="labelcina">
+                            Novi naziv servisa
+                        </div>
+                        <div class="divInputa">
+                            <input type="text" asp-for="noviNaziv" id="nazivServisa">
+                        </div>
+                        <div>
+                            <button class="dugmeSub" type="submit" asp-page-handler="IzmeniNazivServisa" onclick="IzmeniNazivServisa()">Izmeni naziv</button>
+                        </div>
+                    </div>
+
+                    <div class="divcina">
+                        <div class="labelcina">
+                            Nova lokacija servisa
+                        </div>
+                        <div class="divInputa">
+                            <input type="text" asp-for="novaLokacija" id="lokacijaServisa">
+                        </div>
+                        <div>
+                            <button class="dugmeSub" type="submit" asp-page-handler="IzmeniLokacijuServisa" onclick="IzmeniLokacijuServisa()">Izmeni lokaciju</button>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div class="serverskiDesni">
+            <div>
+                <img src="~/Slike/service.jpg" alt="Service" class="servisnaSlika">
+            </div>
+        </div>
+    </div>
+
+    <div class="vlasnickiDiv">
+        <div class="vlasnickiLevi">
+            <form method="GET">
+                <div class="tra">
+                    <h2>Podaci o Vlasniku</h2>
+
+                    <p><span class="labelaInf">Ime vlasnika - </span>@Model.servis.ServisAdminIme</p>
+                    <p><span class="labelaInf">Prezime vlasnika - </span>@Model.servis.ServisAdminPrezime</p>
+                    <p><span class="labelaInf">Broj godina - </span>@Model.servis.ServisAdminGod</p>
+                    <p><span class="labelaInf">Iskustvo - </span>@Model.servis.ServisAdminIskustvo</p>
+                </div>
+            </form>
+            <form method="POST">
+                <div class="izmenaPodOVlasniku">
+                    <h2>Izmeni podatke o vlasniku servisa</h2>
+
+                    <div class="divcina">
+                        <div class="labelcina">
+                            Ime
+                        </div>
+                        <div class="divInputa">
+                            <input type="text" asp-for="novoIme" id="imeVlasnika">
+                        </div>
+                        <div>
+                            <button type="submit" asp-page-handler="IzmeniImeVlasnika" onclick="IzmeniImeVlasnika()">Izmeni</button>
+                        </div>
+                    </div>
+
+                    <div class="divcina">
+                        <div class="labelcina">
+                            Prezime
+                        </div>
+                        <div class="divInputa">
+                            <input type="text" asp-for="novoPrezime" id="prezimeVlasnika">
+                        </div>
+                        <div>
+                            <button type="submit" asp-page-handler="IzmeniPrezimeVlasnika" onclick="IzmeniPrezimeVlasnika()">Izmeni</button>
+                        </div>
+                    </div>
+
+                    <div class="divcina">
+                        <div class="labelcina">
+                            Broj godina
+                        </div>
+                        <div class="divInputa">
+                            <input type="text" asp-for="noviBrGod" id="godineVlasnika">
+                        </div>
+                        <div>
+                            <button type="submit" asp-page-handler="IzmeniBrGodVlasnika" >Izmeni</button>
+                        </div>
+                    </div>
+
+                    <div class="divcina">
+                        <div class="labelcina">
+                            Iskustvo
+                        </div>
+                        <div class="divInputa">
+                            <input type="text" asp-for="novoIskustvo" id="iskustvoVlasnika">
+                        </div>
+                        <div>
+                            <button type="submit" asp-page-handler="IzmeniIskustvoVlasnika" onclick="IzmeniIskustvoVlasnika()">Izmeni</button>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div class="vlasnickiDesni">
+            <div>
+                <img src="~/Slike/korisnik.png" alt="Vlasnik" class="vlasnickaSlicica">
+            </div>
+        </div>
+    </div>
+
+    <div class="divAdm">
+        <form method="POST">
+            <div class="izmenaPodOAdministratoru">
+                <h2>Izmeni podatke o Administratoru</h2>
+
+                <div class="divcinaa">
+                    <div class="labelcinab">
+                        Nova lozinka
+                    </div>
+                    <div class="divInputa">
+                        <input type="password"  id="myInput" asp-for="novaLozinka">
+                        <input type="checkbox" onclick="pokazz()">Prikazi lozinku
+                    </div>
+                    <div>
+                        <button type="submit" asp-page-handler="IzmeniAd" onclick="IzmeniPodatkeOAdministratoru()">Izmeni</button>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+
+    <div class="zahtevi">
+        <form method="POST">
+            <div class="lefft">
+                <h4>Pregled svih registrovanih majstora</h4>
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>Ime</th>
+                            <th>Prezime</th>
+                            <th>Email</th>
+                            <th>Ocena (Broj ocena)</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var majstor in Model.listaMajstora)
+                        {
+                            <tr>
+                                <th>@majstor.MajstorIme</th>
+                                <th>@majstor.MajstorPrezime</th>
+                                <th>@majstor.MajstorEmail</th>
+                                <th>@majstor.MajstorOcena (@majstor.BrojOcena)</th>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="lefft">
+                <h4>Zahtevi za Servis</h4>
+
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>Ime Majstora</th>
+                            <th>Prezime Majstora</th>
+                            <th>Email Majstora</th>
+                            <th>Ocena Majstora (Broj ocena)</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var zahtev in Model.listaZahtevaZaServis)
+                        {
+                            <tr>
+                                <td>@zahtev.ImeMajstora</td>
+                                <td>@zahtev.PrezimeMajstora</td>
+                                <td>@zahtev.EmailMajstora</td>
+                                <td>@zahtev.OcenaMajstora (@zahtev.BrojOcenaMajstora)</td>
+                                <td><button type="submit" asp-page-handler="Potvrdi" asp-route-id="@zahtev.ZahtevServisId">Potvrdi</button></td>
+                                <td><button type="submit" asp-page-handler="Odbi" asp-route-id="@zahtev.ZahtevServisId">Odbi</button></td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </form>
+    </div>
+    <form method="POST">
+        <button type="submit" class="odjavaDugme dab" asp-page-handler="LogOut">Log out</button>
+    </form>
+</div>
+
+<script>
+    function pokazz() {
+        var x = document.getElementById("myInput");
+        if (x.type === "password") {
+            x.type = "text";
+        } else {
+            x.type = "password";
+        }
+    }
+</script>
+

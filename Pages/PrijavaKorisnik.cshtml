@@ -1,0 +1,57 @@
+@page
+@model PrijavaKorisnikModel
+@{
+    ViewData["Title"] = "Prijava Korisnik";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="~/css/stil.css" />  
+    </head>
+    <body class="indexBody">
+		<div class="velikiDivPrijaveKorisnika">
+			<div class="registracijaKorisnika">
+				<div class="registracijaLabela">
+					<h3>Korisnicka prijava</h3>
+				</div>
+				<div class="tatko">
+					<div>
+						<img src="~/Slike/korisnik.png" alt="Korisnik" class="korisnikSlika">
+					</div>
+					<form method="POST" class="divUnosaPod">
+						<div class="divUnosa">
+							<div class="divLabele">
+								Email
+							</div>
+							<div class="divInputa">
+                                <input type="text" asp-for="prijavljeniKorisnik.KorisnikEmail">
+                            </div>
+						</div>
+						<div class="divUnosa">
+							<div class="divLabele">
+								Lozinka
+							</div>
+							<div class="divInputa">
+                                <input type="password" id="myInput" asp-for="prijavljeniKorisnik.KorisnikLozinka">
+                                <input type="checkbox" onclick="prikaz()">Prikazi sifru
+                            </div>
+						</div>
+						<button class="registrujSeDugme" type="submit">Prijavi se</button>
+					</form>
+				</div>
+			</div>
+		</div>
+    </body>
+</html>
+
+<script>
+    function prikaz() {
+        var x = document.getElementById("myInput");
+        if (x.type === "password") {
+            x.type = "text";
+        } else {
+            x.type = "password";
+        }
+    }
+</script>

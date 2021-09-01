@@ -1,0 +1,1014 @@
+.headerIndex {
+    background-color: white;
+}
+
+.prijavaDugme { 
+    background-color:rgb(68, 110, 202);
+    margin-left: 300px;
+}
+
+.registracijaDugme {
+    background-color: rgb(194, 12, 154);
+}
+
+.divDugmica {
+    margin: 20px;
+}
+
+.vecaTabela {
+    border: 1px solid black;
+    height: 70px;
+    width: 300px;
+    text-align: center;
+}
+
+.manjaTabela {
+    border: 3px solid rgb(90, 134, 132);
+    text-align: center;
+}
+
+.divZaManjuTabelu {
+    margin: 10px;
+}
+
+.layoutBody {
+    background-color: rgb(255, 255, 255);
+}
+
+.tabelaOsnovnogPrikaza {
+    margin: 15px;
+    margin-left: 100px;
+}
+
+.divBezServisa {
+    margin: 15px;
+    background-color: linen;
+    border: 1px solid black;
+}
+
+.divBezServisaLab {
+    margin: 15px;
+    margin-left: 0px;
+    text-align: center;
+}
+
+.tabelaOsnovnogPrikazaa {
+    margin: 30px;
+    margin-left: 50px;
+}
+
+.labelaSamMaj {
+    margin: 15px;
+    margin-left: 30px;
+}
+
+.divPovratka {
+    margin: 15px;
+    margin-left: 0px;
+    text-align-last: center;
+}
+
+.dugmme {
+    height: 50px;
+    width: 300px;
+}
+
+.abc {
+    margin-left: 30px;
+}
+
+.tata3 {
+    margin: 15px;
+    background-color: gainsboro;
+    border: 1px solid black;
+}
+
+.dostupniServisi {
+    text-align: center;
+}
+
+.tabelaMajstora {
+    margin: 5px;
+}
+
+.dostupniMajstori {
+    margin-top: 5px;
+}
+
+.informacijeOMajstoru {
+    display: flex;
+    flex-direction: row;
+}
+
+.komentarskiDiv {
+    margin: 15px;
+    border: 1px solid black;
+    background-color: mintcream;
+}
+
+.divZaKomentare {
+    margin: 15px;
+}
+
+.text-danger{
+    white-space:nowrap;
+    display: inline-block;
+    width: 100%;
+}
+
+.element {
+    border: 1px solid black;
+    width: 750px;
+    margin-left: 300px;
+    background-color: seashell;
+}
+
+.unosOsnovnihPod {
+    margin: 15px;
+    margin-left: 40px;
+    margin-right: 40px;
+    background-color: palegoldenrod;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+}
+
+.divZaUnosUsluga {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    background-color: powderblue;
+    margin: 40px;
+}
+
+.divUsluge {
+    display: flex;
+    flex-direction: row;
+    margin: 15px;
+}
+
+.uslugaLabelaDiv {
+    margin: 3px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    width: 100px;
+}
+
+.regDugmence {
+    width: 150px;
+    height: 50px;
+}
+
+.divZaDugme {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.uslugaCenaDiv {
+    margin-left: 30px;
+    margin-right: 10px;
+}
+
+.labelaOsnovnogUnosa {
+    margin: 15px;
+}
+
+.labelaRegistracije {
+    text-align: center;
+}
+
+.divKomentara {
+    border: 1px solid black;
+    background-color: lemonchiffon;
+    margin-top: 15px;
+}
+
+.podnosiocKomentara {
+    margin: 5px;
+}
+
+.komentarSadrzaj {
+    margin: 5px;
+}
+
+.sadrzajKomentara {
+    border: 1px solid black;
+    background-color: palegoldenrod;
+    margin: 15px;
+}
+
+.osnovneInfOMajstoru {
+    border: 1px solid black;
+    margin: 15px;
+    background-color: gainsboro;
+    display: flex;
+    flex-direction: row;
+}
+
+.levoIdem {
+    margin: 50px;
+    margin-right: 100px;
+}
+
+.spancina {
+    font-weight: bold;
+}
+
+.saciri {
+    margin: 15px;
+    text-align: center;
+}
+
+.dzaka {
+    margin-top: 35px;
+}
+
+.uslugaDivLab {
+    margin: 15px;
+    margin-left: 310px;
+}
+
+.haki {
+    margin: 15px;
+    border: 1px solid black;
+    background-color: linen;
+}
+
+.baki {
+    margin: 15px;
+    border: 1px solid black;
+    background-color: blanchedalmond;
+}
+
+.taki {
+    margin: 30px;
+    width: 880px;
+}
+
+.asd {
+    margin: 15px;
+    margin-left: 330px;
+    width: 250px;
+    height: 50px;
+}
+
+.saki {
+    margin: 30px;
+    width: 800px;
+}
+
+.uslugaDivLabb {
+    margin: 15px;
+    margin-left: 220px;
+}
+
+.zaUslugu {
+    border: 1px solid black;
+    margin: 15px;
+    background-color: lightgray;
+    height: 190px;
+    display: flex;
+    flex-direction: row;
+}
+
+.trgovinaSlika {
+    margin: 15px;
+    height: 155px;
+    width: 570px;
+}
+
+.zaUsluguLabela {
+    margin: 15px;
+}
+
+.ddd {
+    width: 150px;
+    height: 30px;
+    margin: 15px;
+    margin-left: 70px;
+}
+
+.tablicaCokolade {
+    margin: 15px;
+}
+
+.tabelaInfMaj {
+    margin: 15px;
+}
+
+.tabelaInfMajj {
+    margin: 15px;
+    background-color: lemonchiffon;
+    border: 1px solid black;
+}
+
+.tabelaInfMajje {
+    margin: 15px;
+    background-color: lemonchiffon;
+    border: 1px solid black;
+}
+
+.tabelaInfMajjj {
+    margin: 15px;
+    background-color: lavender;
+    border: 1px solid black;
+}
+
+.osnovniPodaciOMaj {
+    margin: 15px;
+}
+
+.informacije {
+    font-family: "Arial Black", Gadget, sans-serif;
+    font-variant: small-caps;
+}
+
+.informacijaSlika {
+    margin-left: 100px;
+}
+
+/* CSS za dugme ON-OFF za DARK-MODE */
+
+.tamnaTema {
+    margin-right: 10px;
+    margin-bottom: 7px;
+}
+
+.onoffswitch {
+    position: relative; width: 90px;
+    -webkit-user-select:none; -moz-user-select:none; -ms-user-select: none;
+}
+.onoffswitch-checkbox {
+    position: absolute;
+    opacity: 0;
+    pointer-events: none;
+}
+.onoffswitch-label {
+    display: block; overflow: hidden; cursor: pointer;
+    border: 2px solid #999999; border-radius: 20px;
+}
+.onoffswitch-inner {
+    display: block; width: 200%; margin-left: -100%;
+    transition: margin 0.3s ease-in 0s;
+}
+.onoffswitch-inner:before, .onoffswitch-inner:after {
+    display: block; float: left; width: 50%; height: 30px; padding: 0; line-height: 30px;
+    font-size: 14px; color: white; font-family: Trebuchet, Arial, sans-serif; font-weight: bold;
+    box-sizing: border-box;
+}
+.onoffswitch-inner:before {
+    content: "ON";
+    padding-left: 10px;
+    background-color: #34A7C1; color: #FFFFFF;
+}
+.onoffswitch-inner:after {
+    content: "OFF";
+    padding-right: 10px;
+    background-color: #EEEEEE; color: #999999;
+    text-align: right;
+}
+.onoffswitch-switch {
+    display: block; width: 18px; margin: 6px;
+    background: #FFFFFF;
+    position: absolute; top: 0; bottom: 0;
+    right: 56px;
+    border: 2px solid #999999; border-radius: 20px;
+    transition: all 0.3s ease-in 0s; 
+}
+.onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-inner {
+    margin-left: 0;
+}
+.onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-switch {
+    right: 0px; 
+}
+
+.majstorSlicica {
+    text-align: center;
+}
+
+.majstorSlika {
+    margin-left: 230px;
+    width: 400px;
+    height: 400px;
+}
+
+.informacijaOMajstoru {
+    width: 300px;
+    height: 300px;
+}
+
+.prvoDugme {
+    background-color: rgb(218, 203, 219);
+    height: 150px;
+    animation: mymove 5s infinite;  
+    color: black;
+    font-size: 16px;
+    padding: 16px 30px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.drugoDugme {
+    background-color: rgb(139, 161, 152);
+    width: max-content;
+    height: 150px;
+    text-align: center;
+    animation: mymove 5s infinite;
+    color: black;
+    font-size: 16px;
+    padding: 16px 30px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+}
+  
+@keyframes mymove {
+    50% { background-color: rgb(191, 197, 137); }
+}
+
+.serviskiDiv {
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    margin: 5px;
+    background-color: peachpuff;
+}
+
+.serverskiLevi {
+    margin: 30px;
+}
+
+.servisnaSlika {
+    width: 400px;
+    height: 350px;
+    margin: 10px;
+}
+
+.lider {
+    margin-left: 50px;
+}
+
+.vlasnickiDiv {
+    border: 1px solid black;
+    margin: 5px;
+    display: flex;
+    flex-direction: row;
+    background-color: honeydew;
+}
+
+.vlasnickiLevi {
+    margin: 10px;
+}
+
+.levi {
+    width: 400px;
+    margin: 15px;
+    margin-left: 150px;
+    margin-top: 25px;
+}
+
+.noviTata {
+    margin: 15px;
+}
+
+.noviTataa {
+    margin: 15px;
+    border: 1px solid black;
+    background-color: gainsboro;
+}
+
+.labelaUnutarLevog {
+    margin: 15px;
+    margin-left: 0px;
+    text-align: center;
+}
+
+.divUnutarLevog {
+    margin: 50px;
+}
+
+.unutarLevog {
+    border: 1px solid black;
+    background-color: blanchedalmond;
+    width: 350px;
+    height: 350px;
+}
+
+.divAdm {
+    border: 1px solid black;
+    margin: 5px;
+    background-color: palegoldenrod;
+}
+
+.divLabele {
+    width: 100px;
+}
+
+.divUnosa {
+    display: flex;
+    flex-direction: row;
+    margin: 3px;
+}
+
+.divParce {
+    display: flex;
+    flex-direction: row;
+    margin: 15px;
+}
+
+.filterDugme {
+    text-align: center;
+    margin: 15px;
+}
+
+.filterDugmence {
+    width: 200px;
+    height: 50px;
+}
+
+.filterDugmence:hover {
+    background-color: mediumaquamarine;
+    color: rgb(230, 27, 27);
+}
+
+.indexGlavniDiv {
+    background-color: darkkhaki;
+    margin: 15px;
+}
+
+.divTabelcina {
+    border: 1px solid black;
+    margin: 15px;
+    background-color: lightcyan;
+}
+
+.filterLab {
+    width: 110px;
+}
+
+.prviDiv {
+    border: 1px solid black;
+    margin: 15px;
+    width: 620px;
+    background-color: peachpuff;
+}
+
+.div1 {
+    border: 1px solid black;
+    background-color: skyblue;
+    width: 750px;
+    margin-left: 250px;
+}
+
+.validacija2 {
+    margin-top: 7px;
+}
+
+.drugiDiv {
+    margin: 5px;
+    margin-right: 0px;
+    width: 70px;
+}
+
+.treciDiv {
+    margin: 5px;
+    margin-left: 0px;
+}
+
+.leftDiv {
+    margin-left: 5px;
+}
+
+.registrujSeDugme {
+    background-color: rgb(61, 141, 108);
+    animation: mymove 5s infinite;
+}
+
+.serviceSlika {
+    margin-left: 70px;
+    width: 350px;
+    height: 300px;
+    margin-top: 15px;
+}
+
+.pomm {
+    border: 1px solid black;
+    background-color: cornsilk;
+    margin: 15px;
+}
+
+.divInputa {
+    margin-right: 15px;
+}
+
+.vlasnickaSlicica {
+    width: 400px;
+    height: 400px;
+    margin-top: 10px;
+}
+
+.labelcina {
+    width: 170px;
+}
+
+.labelcinab {
+    width: 100px;
+}
+
+.dugmeSub {
+    width: 150px;
+}
+
+.tra {
+    margin: 40px;
+}
+
+.izmenaPodOVlasniku {
+    margin: 40px;
+}
+
+.izmenaPodOAdministratoru {
+    margin: 30px;
+    margin-left: 50px;
+}
+
+.divcina {
+    width: 500px;
+    display: flex;
+    flex-direction: row;
+    margin: 5px;
+}
+
+.divcinaa {
+    width: 600px;
+    display: flex;
+    flex-direction: row;
+    margin: 15px;
+}
+
+.zahtevi {
+    border: 1px solid black;
+    margin: 5px;
+    background-color: lightgrey;
+}
+
+.dab {
+    width: 200px;
+    height: 50px;
+    margin: 15px;
+    margin-left: 450px;
+}
+
+.lefft {
+    margin: 15px;
+}
+
+.divZahteva {
+    margin: 10px;
+}
+
+.majstorDiv {
+    border: 1px solid black;
+    width: 800px;
+    margin-left: 250px;
+    background-color: whitesmoke;
+}
+
+.majstorDivv {
+    width: 1000px;
+    border: 1px solid black;
+    margin-left: 150px;
+    background-color: whitesmoke;
+}
+
+.dugmeRegistracije {
+    background-color: rgb(61, 141, 108);
+    animation: mymove 5s infinite;
+    margin: 5px;
+    margin-left: 250px;
+    margin-bottom: 20px;
+    height: 50px;
+    width: 300px;
+}
+
+.inputOcene {
+    width: 60px;
+    margin-right: 10px;
+}
+
+.labelaInf {
+    font-weight: bold;
+}
+
+.odjavaDugme {
+    background-color: rgb(201, 202, 103);
+}
+
+.odjavaDugme:hover {
+    background-color: rgb(255, 0, 0);
+    color: white;
+}
+
+.odjava {
+    width: 200px;
+    height: 75px;
+    margin: 15px;
+    margin-left: 450px;
+}
+
+.zakaziDugme {
+    background-color: rgb(87, 161, 87);
+}
+
+.ukloniDugme {
+    background-color: rgb(138, 64, 64);
+}
+
+.ukloniDugme:hover {
+    background-color: rgb(88, 182, 93);
+    color: white;
+}
+
+.zakaziDugme:hover {
+    background-color: rgb(10, 12, 22);
+    color: white;
+}
+
+.oceniDugme {
+    background-color: rgb(65, 136, 124);
+}
+
+.oceniDugme:hover {
+    background-color: rgb(117, 54, 122);
+    color: white;
+}
+
+.obrisiDugme {
+    background-color: rgb(101, 161, 151);
+    color: white;
+}
+
+.obrisiDugme:hover {
+    background-color: rgb(204, 26, 26);
+    color: black;
+}
+
+.podnesiDugme {
+    background-color: rgb(107, 107, 77);
+}
+
+.podnesiDugme:hover {
+    background-color: rgb(23, 64, 129);
+}
+
+.popravljenoDugme {
+    background-color: tomato;
+}
+
+.odbiDugme {
+    background-color: teal;
+}
+
+.odobriDugme {
+    background-color: salmon;
+}
+
+.vlasnikSlika {
+    width: 350px;
+    height: 300px;
+    margin-left: 150px;
+}
+
+.vlasnik {
+    margin-top: 15px;
+}
+
+.opetNovi {
+    margin-left: 30px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.cale {
+    margin-left: 125px;
+}
+
+.basTatko {
+    margin-left: 100px;
+}
+
+.tataa {
+    border: 1px solid black;
+    background-color: lightsteelblue;
+}
+
+.glavniDivRegistracije {
+    display: flex;
+    flex-direction: row;
+}
+
+.velikiDivPrijaveKorisnika {
+    margin-left: 350px;
+    width: 500px;
+}
+
+.divUnosaPod {
+    margin: 20px;
+}
+
+.labell {
+    margin-top: 20px;
+}
+
+.registracijaKorisnika {
+    margin: 15px;
+    border: 1px solid black;
+    background-color: cornsilk;
+    animation: mojmove 5s infinite;
+}
+
+.registracijaMajstora {
+    margin: 15px;
+    border: 1px solid black;
+    background-color: rgb(209, 203, 178);
+    animation: mojmove 5s infinite;
+}
+
+@keyframes mojmove {
+    50% { background-color: rgb(255, 255, 255); }
+}
+
+.korisnikSlika {
+    margin: 20px;
+    width: 350px;
+    height: 350px;
+}
+
+.majstorPhoto {
+    margin: 20px;
+    width: 350px;
+    height: 350px;
+}
+
+.registracijaLabela {
+    margin: 20px;
+    text-align: center;
+}
+
+.ovoJeGlavni {
+    margin-left: 250px;
+}
+
+.dugmiciReg {
+    margin: 20px;
+    text-align: center;
+}
+
+.divZaRegistracijuServisa {
+    display: flex;
+    flex-direction: row;
+    margin-left: 100px;
+}
+
+.divTreci {
+    width: 800px;
+    margin-left: 280px;
+    border: 1px solid black;
+}
+
+.slikaUredjaja {
+    margin: 15px;
+    margin-left: 125px;
+}
+
+.adminDiv {
+    border: 1px solid black;
+    background-color: linen;
+}
+
+.adminDivTabela {
+    margin: 15px;
+}
+
+.adminDivOdjava {
+    margin: 15px;
+    width: 200px;
+    height: 40px;
+    margin-left: 500px;
+}
+
+.filterPretrage {
+    border: 1px solid black;
+    margin: 15px;
+    width: 400px;
+    margin-left: 300px;
+    background-color: lightsteelblue;
+    
+}
+
+.divDostupnihServisa {
+    margin: 15px;
+    border: 1px solid black;
+    background-color: khaki;
+}
+
+.adminDivLab {
+    margin: 15px;
+    margin-left: 0px;
+    text-align: center;
+}
+
+.divDostupnihServisaLab {
+    text-align: center;
+    margin: 15px;
+    margin-left: 0px;
+}
+
+.admin {
+    text-align: center;
+    margin-top: 15px;
+    margin-right: 50px;
+}
+
+.adminSlika {
+    width: 350px;
+    height: 300px;
+    margin-left: 40px;
+}
+
+.divAdminLab {
+    margin-left: 40px;
+    margin-bottom: 30px;
+}
+
+.div4 {
+    border: 1px solid black;
+    background-color: lightgray;
+    margin: 15px;
+    height: 550px;
+}
+
+.registracijaDivServis, .registracijaDivAdmin {
+    margin: 20px;
+}
+
+.registracijaDivAdmin {
+    width: 500px;
+}
+
+.registracijaDivServis {
+    border: 1px solid black;
+    width: 500px;
+}
+
+.labelaRegSer {
+    margin-bottom: 30px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.divJosJedan {
+    margin-left: 40px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.registracijaDivAdmin {
+    border: 1px solid black;
+    width: 720px;
+    margin: 15px;
+    background-color: snow;
+}
+
+.unosPod {
+    margin: 20px;
+}
+
+.osnovniDiv {
+    display: flex;
+    flex-direction: row;
+}
+
+.osnovniDiv {
+    margin: 15px;
+    border: 1px solid black;
+    background-color: cornflowerblue;
+}
+
+.uredjajSlika {
+    margin-left: 100px;
+    width: 200px;
+    height: 200px;
+}
+
+.container {
+    margin-left: 100px;
+}
+
+.pb-3 {
+    margin-right: 0px;
+    width: 1300px;
+}

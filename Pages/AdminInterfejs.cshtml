@@ -1,0 +1,42 @@
+@page
+@model AdminInterfejsModel
+@{
+    ViewData["Title"] = "Admin Interfejs";
+}
+
+<form method="POST">
+    <div class="adminDiv">
+        <div class="adminDivLab">
+            <h4>Zahtevi za Registraciju Servisa</h4>
+        </div>
+        <div class="adminDivTabela">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Podnosioc zahteva</th>
+                        <th>Br.Godina</th>
+                        <th>Iskustvo</th>
+                        <th>Naziv servisa</th>
+                        <th>Lokacija servisa</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var zahtev in Model.listaZaRegistraciju)
+                    {
+                        <tr>
+                            <td>@zahtev.ZahtevNovServisAdminIme @zahtev.ZahtevNovServisAdminPrezime</td>
+                            <td>@zahtev.ZahtevNovServisAdminGod</td>
+                            <td>@zahtev.ZahtevNovServisAdminIskustvo</td>
+                            <td>@zahtev.ZahtevNovServisNaziv</td>
+                            <td>@zahtev.ZahtevNovServisLokacija</td>
+                            <td><button type="submit" asp-page-handler="Registruj" asp-route-id="@zahtev.ZahtevNovServisId">Potvrdi</button></td>
+                            <td><button type="submit" asp-page-handler="NeRegistruj" asp-route-id="@zahtev.ZahtevNovServisId">Odbi</button></td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+
+        <button type="submit" class="odjavaDugme adminDivOdjava" asp-page-handler="LogOut">Log out</button>
+    </div>
+</form>

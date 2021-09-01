@@ -1,0 +1,367 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>@ViewData["Title"]</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="~/css/stil.css"/>
+</head>
+<body class="layoutBody">
+    <header class="headerIndex">
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light border-bottom box-shadow mb-3">
+            <div class="container">
+                <a class="navbar-brand" asp-area="" asp-page="/Index">QuickFix</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse">
+                    <ul class="navbar-nav flex-grow-1">
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-page="/Prijava">Prijava</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-page="/Registracija">Registracija</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="tamnaTema">
+                    Tamna tema
+                </div>
+                <div>                    
+                    <div class="onoffswitch">
+                        <input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox" id="myonoffswitch" tabindex="0">
+                        <label onclick="myFunction()" class="onoffswitch-label" for="myonoffswitch">
+                            <span class="onoffswitch-inner"></span>
+                            <span class="onoffswitch-switch"></span>
+                        </label>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+
+    <script>
+        var pom = localStorage.getItem("key");
+        console.log(pom);
+        if (pom == "light")
+        {
+            // Light mode
+            document.querySelector(".headerIndex").style.backgroundColor = "white";
+            document.querySelector(".layoutBody").style.backgroundColor = "white";
+            if(document.querySelector(".indexGlavniDiv") != null)
+            {
+                document.querySelector(".indexGlavniDiv").style.backgroundColor = "white";
+            }
+            if(document.querySelector(".divTabelcina") != null)
+            {
+                document.querySelector(".divTabelcina").style.backgroundColor = "white";
+            }
+            if(document.querySelector(".filterPretrage") != null)
+            {
+                document.querySelector(".filterPretrage").style.backgroundColor = "white";
+            }
+            if(document.querySelector(".divDostupnihServisa") != null)
+            {
+                document.querySelector(".divDostupnihServisa").style.backgroundColor = "white";
+            }
+            if(document.querySelector(".divBezServisa") != null)
+            {
+                document.querySelector(".divBezServisa").style.backgroundColor = "white";
+            }
+            if(document.querySelector(".osnovniDiv") != null)
+            {
+                document.querySelector(".osnovniDiv").style.backgroundColor = "white";
+            }
+            if(document.querySelector(".unutarLevog") != null)
+            {
+                document.querySelector(".unutarLevog").style.backgroundColor = "white";
+            }
+            if(document.querySelector(".tataa") != null)
+            {
+                document.querySelector(".tataa").style.backgroundColor = "white";
+            }
+            if(document.querySelector(".noviTataa") != null)
+            {
+                document.querySelector(".noviTataa").style.backgroundColor = "white";
+            }
+            if(document.querySelector(".tata3") != null)
+            {
+                document.querySelector(".tata3").style.backgroundColor = "white";
+            }
+            if(document.querySelector(".osnovneInfOMajstoru") != null)
+            {
+                document.querySelector(".osnovneInfOMajstoru").style.backgroundColor = "white";
+            }
+            if(document.querySelector(".tabelaInfMajj") != null)
+            {
+                document.querySelector(".tabelaInfMajj").style.backgroundColor = "white";
+            }
+            if(document.querySelector(".zaUslugu") != null)
+            {
+                document.querySelector(".zaUslugu").style.backgroundColor = "white";
+            }
+            if(document.querySelector(".tabelaInfMajjj") != null)
+            {
+                document.querySelector(".tabelaInfMajjj").style.backgroundColor = "white";
+            }
+            if(document.querySelector(".baki") != null)
+            {
+                document.querySelector(".baki").style.backgroundColor = "white";
+            }
+            if(document.querySelector(".haki") != null)
+            {
+                document.querySelector(".haki").style.backgroundColor = "white";
+            }
+            if(document.querySelector(".tabelaInfMajje") != null)
+            {
+                document.querySelector(".tabelaInfMajje").style.backgroundColor = "white";
+            }
+            if(document.querySelector(".komentarskiDiv") != null)
+            {
+                document.querySelector(".komentarskiDiv").style.backgroundColor = "white";
+            }
+            if(document.querySelectorAll(".divKomentara") != null)
+            {
+                let pom = document.querySelectorAll(".divKomentara");
+                pom.forEach(element => {
+                    element.style.backgroundColor = "white";
+                });
+            }
+            if(document.querySelectorAll(".sadrzajKomentara") != null)
+            {
+                let pom = document.querySelectorAll(".sadrzajKomentara");
+                pom.forEach(element => {
+                    element.style.backgroundColor = "white";
+                });
+            }
+            if(document.querySelector(".element") != null)
+            {
+                document.querySelector(".element").style.backgroundColor = "white";
+            }
+            if(document.querySelector(".unosOsnovnihPod") != null)
+            {
+                document.querySelector(".unosOsnovnihPod").style.backgroundColor = "white";
+            }
+            if(document.querySelectorAll(".prviDiv") != null)
+            {
+                let pom = document.querySelectorAll(".prviDiv");
+                pom.forEach(element => {
+                    element.style.backgroundColor = "white";
+                });
+            }
+            if(document.querySelector(".div1") != null)
+            {
+                document.querySelector(".div1").style.backgroundColor = "white";
+            }
+            if(document.querySelector(".pomm") != null)
+            {
+                document.querySelector(".pomm").style.backgroundColor = "white";
+            }
+            if(document.querySelector(".div4") != null)
+            {
+                document.querySelector(".div4").style.backgroundColor = "white";
+            }
+            if(document.querySelector(".adminDiv") != null)
+            {
+                document.querySelector(".adminDiv").style.backgroundColor = "white";
+            }
+            if(document.querySelector(".serviskiDiv") != null)
+            {
+                document.querySelector(".serviskiDiv").style.backgroundColor = "white";
+            }
+            if(document.querySelector(".vlasnickiDiv") != null)
+            {
+                document.querySelector(".vlasnickiDiv").style.backgroundColor = "white";
+            }
+            if(document.querySelector(".divAdm") != null)
+            {
+                document.querySelector(".divAdm").style.backgroundColor = "white";
+            }
+            if(document.querySelector(".zahtevi") != null)
+            {
+                document.querySelector(".zahtevi").style.backgroundColor = "white";
+            }
+
+            document.querySelector(".slikaUredjaja").innerHTML = "";
+            var img = document.createElement("img");
+            img.className = "majstorSlika";
+            img.src = "Slike/majstorSlikaBeli.png";
+            document.querySelector(".slikaUredjaja").appendChild(img);
+
+            document.querySelector(".informacijaSlika").innerHTML = "";
+            var newImg = document.createElement("img");
+            newImg.className = "informacijaOMajstoru";
+            newImg.src = "Slike/informacijeOMajstoruBeli.png";
+            document.querySelector(".informacijaSlika").appendChild(newImg);
+        }
+        else
+        {
+            // Dark mode
+            document.querySelector(".onoffswitch-checkbox").checked = true;
+
+            document.querySelector(".headerIndex").style.backgroundColor = "darkgray";
+            document.querySelector(".layoutBody").style.backgroundColor = "darkkhaki";
+
+            if(document.querySelector(".indexGlavniDiv") != null)
+            {
+                document.querySelector(".indexGlavniDiv").style.backgroundColor = "darkkhaki";
+            }
+            if(document.querySelector(".divTabelcina") != null)
+            {
+                document.querySelector(".divTabelcina").style.backgroundColor = "lightcyan";
+            }
+            if(document.querySelector(".filterPretrage") != null)
+            {
+                document.querySelector(".filterPretrage").style.backgroundColor = "lightsteelblue";
+            }
+            if(document.querySelector(".divDostupnihServisa") != null)
+            {
+                document.querySelector(".divDostupnihServisa").style.backgroundColor = "khaki";
+            }
+            if(document.querySelector(".divBezServisa") != null)
+            {
+                document.querySelector(".divBezServisa").style.backgroundColor = "linen";
+            }
+            if(document.querySelector(".osnovniDiv") != null)
+            {
+                document.querySelector(".osnovniDiv").style.backgroundColor = "cornflowerblue";
+            }
+            if(document.querySelector(".unutarLevog") != null)
+            {
+                document.querySelector(".unutarLevog").style.backgroundColor = "blanchedalmond";
+            }
+            if(document.querySelector(".tataa") != null)
+            {
+                document.querySelector(".tataa").style.backgroundColor = "lightsteelblue";
+            }
+            if(document.querySelector(".noviTataa") != null)
+            {
+                document.querySelector(".noviTataa").style.backgroundColor = "gainsboro";
+            }
+            if(document.querySelector(".tata3") != null)
+            {
+                document.querySelector(".tata3").style.backgroundColor = "gainsboro";
+            }
+            if(document.querySelector(".osnovneInfOMajstoru") != null)
+            {
+                document.querySelector(".osnovneInfOMajstoru").style.backgroundColor = "gainsboro";
+            }
+            if(document.querySelector(".tabelaInfMajj") != null)
+            {
+                document.querySelector(".tabelaInfMajj").style.backgroundColor = "lemonchiffon";
+            }
+            if(document.querySelector(".zaUslugu") != null)
+            {
+                document.querySelector(".zaUslugu").style.backgroundColor = "lightgray";
+            }
+            if(document.querySelector(".tabelaInfMajjj") != null)
+            {
+                document.querySelector(".tabelaInfMajjj").style.backgroundColor = "lavender";
+            }
+            if(document.querySelector(".baki") != null)
+            {
+                document.querySelector(".baki").style.backgroundColor = "blanchedalmond";
+            }
+            if(document.querySelector(".haki") != null)
+            {
+                document.querySelector(".haki").style.backgroundColor = "linen";
+            }
+            if(document.querySelector(".tabelaInfMajje") != null)
+            {
+                document.querySelector(".tabelaInfMajje").style.backgroundColor = "lemonchiffon";
+            }
+            if(document.querySelector(".komentarskiDiv") != null)
+            {
+                document.querySelector(".komentarskiDiv").style.backgroundColor = "mintcream";
+            }
+            if(document.querySelectorAll(".divKomentara") != null)
+            {
+                let pom = document.querySelectorAll(".divKomentara");
+                pom.forEach(element => {
+                    element.style.backgroundColor = "lemonchiffon";
+                });
+            }
+            if(document.querySelectorAll(".sadrzajKomentara") != null)
+            {
+                let pom = document.querySelectorAll(".sadrzajKomentara");
+                pom.forEach(element => {
+                    element.style.backgroundColor = "palegoldenrod";
+                });
+            }
+            if(document.querySelector(".element") != null)
+            {
+                document.querySelector(".element").style.backgroundColor = "seashell";
+            }
+            if(document.querySelector(".unosOsnovnihPod") != null)
+            {
+                document.querySelector(".unosOsnovnihPod").style.backgroundColor = "palegoldenrod";
+            }
+            if(document.querySelectorAll(".prviDiv") != null)
+            {
+                let pom = document.querySelectorAll(".prviDiv");
+                pom.forEach(element => {
+                    element.style.backgroundColor = "peachpuff";
+                });
+            }
+            if(document.querySelector(".div1") != null)
+            {
+                document.querySelector(".div1").style.backgroundColor = "skyblue";
+            }
+            if(document.querySelector(".pomm") != null)
+            {
+                document.querySelector(".pomm").style.backgroundColor = "cornsilk";
+            }
+            if(document.querySelector(".div4") != null)
+            {
+                document.querySelector(".div4").style.backgroundColor = "lightgray";
+            }
+            if(document.querySelector(".adminDiv") != null)
+            {
+                document.querySelector(".adminDiv").style.backgroundColor = "linen";
+            }
+            if(document.querySelector(".serviskiDiv") != null)
+            {
+                document.querySelector(".serviskiDiv").style.backgroundColor = "peachpuff";
+            }
+            if(document.querySelector(".vlasnickiDiv") != null)
+            {
+                document.querySelector(".vlasnickiDiv").style.backgroundColor = "honeydew";
+            }
+            if(document.querySelector(".divAdm") != null)
+            {
+                document.querySelector(".divAdm").style.backgroundColor = "palegoldenrod";
+            }
+            if(document.querySelector(".zahtevi") != null)
+            {
+                document.querySelector(".zahtevi").style.backgroundColor = "lightgrey";
+            }
+
+            document.querySelector(".slikaUredjaja").innerHTML = "";
+            var img = document.createElement("img");
+            img.className = "majstorSlika";
+            img.src = "Slike/majstorSlikaDark.png";
+            document.querySelector(".slikaUredjaja").appendChild(img);
+
+            document.querySelector(".informacijaSlika").innerHTML = "";
+            var newImg = document.createElement("img");
+            newImg.className = "informacijaOMajstoru";
+            newImg.src = "Slike/informacijeOMajstoruDark.png";
+            document.querySelector(".informacijaSlika").appendChild(newImg);
+        }
+    </script>
+
+    @RenderSection("Scripts", required: false)
+</body>
+</html>
